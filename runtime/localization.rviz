@@ -1,0 +1,210 @@
+{
+  "Panels": [
+    {
+      "Class": "rviz_common/Displays",
+      "Name": "Displays"
+    },
+    {
+      "Class": "rviz_common/Views",
+      "Name": "Views"
+    }
+  ],
+  "Visualization Manager": {
+    "Class": "",
+    "Enabled": true,
+    "Name": "root",
+    "Global Options": {
+      "Fixed Frame": "map",
+      "Background Color": "25; 30; 40",
+      "Frame Rate": 15
+    },
+    "Displays": [
+      {
+        "Class": "rviz_default_plugins/Grid",
+        "Enabled": true,
+        "Name": "Metric Grid",
+        "Cell Size": 1,
+        "Plane Cell Count": 50,
+        "Offset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 4.4386
+        },
+        "Alpha": 0.2
+      },
+      {
+        "Class": "rviz_default_plugins/PointCloud2",
+        "Name": "Existing PCD map",
+        "Enabled": true,
+        "Topic": {
+          "Value": "/initial_map",
+          "Depth": 1,
+          "History Policy": "Keep Last",
+          "Reliability Policy": "Reliable",
+          "Durability Policy": "Transient Local"
+        },
+        "Queue Size": 1,
+        "Position Transformer": "XYZ",
+        "Color Transformer": "FlatColor",
+        "Color": "100; 135; 165",
+        "Alpha": 0.4,
+        "Style": "Points",
+        "Size (Pixels)": 2,
+        "Use Fixed Frame": true
+      },
+      {
+        "Class": "rviz_default_plugins/PointCloud2",
+        "Name": "Live depth transformed by estimated pose",
+        "Enabled": true,
+        "Topic": {
+          "Value": "/depth/points",
+          "Depth": 1,
+          "History Policy": "Keep Last",
+          "Reliability Policy": "Best Effort",
+          "Durability Policy": "Volatile"
+        },
+        "Queue Size": 1,
+        "Position Transformer": "XYZ",
+        "Color Transformer": "FlatColor",
+        "Color": "20; 220; 255",
+        "Alpha": 0.6,
+        "Style": "Points",
+        "Size (Pixels)": 1,
+        "Use Fixed Frame": true,
+        "Decay Time": 0
+      },
+      {
+        "Class": "rviz_default_plugins/PoseWithCovariance",
+        "Name": "ESTIMATE - GREEN (guarded NDT)",
+        "Enabled": true,
+        "Topic": {
+          "Value": "/pcl_pose",
+          "Depth": 1,
+          "History Policy": "Keep Last",
+          "Reliability Policy": "Reliable",
+          "Durability Policy": "Transient Local"
+        },
+        "Shape": "Arrow",
+        "Color": "25; 255; 60",
+        "Alpha": 1.0,
+        "Shaft Length": 0.5,
+        "Shaft Radius": 0.06,
+        "Head Length": 0.15,
+        "Head Radius": 0.12,
+        "Covariance": {
+          "Position": false,
+          "Orientation": false
+        }
+      },
+      {
+        "Class": "rviz_default_plugins/Pose",
+        "Name": "ISAAC TRUTH - RED (PhysX)",
+        "Enabled": true,
+        "Topic": {
+          "Value": "/ground_truth/pose",
+          "Depth": 1,
+          "History Policy": "Keep Last",
+          "Reliability Policy": "Reliable",
+          "Durability Policy": "Volatile"
+        },
+        "Shape": "Arrow",
+        "Color": "255; 40; 30",
+        "Alpha": 1.0,
+        "Shaft Length": 0.5,
+        "Shaft Radius": 0.025,
+        "Head Length": 0.15,
+        "Head Radius": 0.07
+      },
+      {
+        "Class": "rviz_default_plugins/Path",
+        "Name": "Estimated trajectory",
+        "Enabled": true,
+        "Topic": {
+          "Value": "/path",
+          "Depth": 1,
+          "History Policy": "Keep Last",
+          "Reliability Policy": "Reliable",
+          "Durability Policy": "Transient Local"
+        },
+        "Color": "25; 255; 60",
+        "Line Style": "Lines",
+        "Line Width": 0.03
+      },
+      {
+        "Class": "rviz_default_plugins/TF",
+        "Name": "TF",
+        "Enabled": false,
+        "Show Names": true
+      },
+      {
+        "Class": "rviz_default_plugins/Pose",
+        "Name": "WHEEL ONLY - BLUE (one initial alignment)",
+        "Enabled": true,
+        "Topic": {
+          "Value": "/wheel_reference/pose",
+          "Depth": 5,
+          "History Policy": "Keep Last",
+          "Reliability Policy": "Reliable",
+          "Durability Policy": "Volatile"
+        },
+        "Shape": "Arrow",
+        "Color": "70; 130; 255",
+        "Alpha": 1.0,
+        "Shaft Length": 0.5,
+        "Shaft Radius": 0.035,
+        "Head Length": 0.15,
+        "Head Radius": 0.09
+      },
+      {
+        "Class": "rviz_default_plugins/Path",
+        "Name": "Wheel-only trajectory - BLUE",
+        "Enabled": true,
+        "Topic": {
+          "Value": "/wheel_reference/path",
+          "Depth": 1,
+          "History Policy": "Keep Last",
+          "Reliability Policy": "Reliable",
+          "Durability Policy": "Transient Local"
+        },
+        "Buffer Length": 1,
+        "Color": "70; 130; 255",
+        "Line Style": "Lines",
+        "Line Width": 0.025,
+        "Alpha": 1.0
+      }
+    ],
+    "Tools": [
+      {
+        "Class": "rviz_default_plugins/MoveCamera"
+      },
+      {
+        "Class": "rviz_default_plugins/Select"
+      },
+      {
+        "Class": "rviz_default_plugins/SetInitialPose",
+        "Topic": {
+          "Value": "/initialpose"
+        }
+      }
+    ],
+    "Views": {
+      "Current": {
+        "Class": "rviz_default_plugins/Orbit",
+        "Name": "Localization",
+        "Target Frame": "<Fixed Frame>",
+        "Distance": 11,
+        "Yaw": 3.8,
+        "Pitch": 1.0,
+        "Focal Point": {
+          "X": -24.8,
+          "Y": 3.7,
+          "Z": 4.9
+        }
+      }
+    }
+  },
+  "Window Geometry": {
+    "Width": 1400,
+    "Height": 950
+  }
+}

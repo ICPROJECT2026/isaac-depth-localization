@@ -1,0 +1,17 @@
+{
+  "before": {
+    "pose_translation_error_m": 1.8109540340125487,
+    "foreground_median_nn_m": 0.14796335279320671,
+    "foreground_p90_nn_m": 0.7216611551585638
+  },
+  "after": {
+    "pose_translation_error_m": 0.04593887753856281,
+    "foreground_median_nn_m": 0.020361025670137596,
+    "foreground_p90_nn_m": 0.025906962526346382
+  },
+  "truth_only_for_evaluation": true,
+  "deployed": "NDT_OMP + upstream global startup + guarded recovery",
+  "dynamic_recovery_test": "not yet performed",
+  "upstream_measurement_gate_test": "passed",
+  "upstream_repository_modified": false
+}

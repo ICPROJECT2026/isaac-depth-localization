@@ -1,0 +1,12 @@
+{
+  "lidar_localization_ros2": {
+    "remote": "https://github.com/rsasaki0109/lidar_localization_ros2.git",
+    "commit": "87b991693acbf00b64300a3e28e158ba95cbe220",
+    "status": ""
+  },
+  "ndt_omp_ros2": {
+    "remote": "https://github.com/rsasaki0109/ndt_omp_ros2.git",
+    "commit": "0cc1621d5eab886569f6e7e36d115fcad894cd72",
+    "status": ""
+  }
+}

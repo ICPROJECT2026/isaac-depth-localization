@@ -1,0 +1,62 @@
+{
+  "profiles": [
+    {
+      "profile": "baseline_global",
+      "domain": 27,
+      "source": "cloud-comparison-20261103-215004 (external dataset)",
+      "initial_pose_source": "top-ranked upstream BBS_2D + NDT candidate; no GT",
+      "truth_fed_to_localizer": false,
+      "samples": 1353,
+      "span_sim_s": 141.133333333,
+      "xy_rmse_m": 0.33237520593737613,
+      "xy_p95_m": 0.3714562438347763,
+      "xy_max_m": 0.5680323184942435,
+      "xy_final_m": 0.06366807321203216,
+      "yaw_rmse_deg": 3.268928285952705,
+      "yaw_final_deg": -0.6343241851642704,
+      "wheel_reference_xy_rmse_m": 0.232083757374,
+      "wheel_reference_xy_max_m": 0.23724836625358625,
+      "limitation": "One short recorded route (0.68m,22deg); same initialization for all profiles. No full manual repeat or global relocalization test."
+    },
+    {
+      "profile": "gicp_guarded_global",
+      "domain": 28,
+      "source": "cloud-comparison-20261103-215004 (external dataset)",
+      "initial_pose_source": "top-ranked upstream BBS_2D + NDT candidate; no GT",
+      "truth_fed_to_localizer": false,
+      "samples": 1374,
+      "span_sim_s": 142.133333333,
+      "xy_rmse_m": 0.07322081994531124,
+      "xy_p95_m": 0.08409410538238628,
+      "xy_max_m": 0.09209426884021088,
+      "xy_final_m": 0.0685077790641054,
+      "yaw_rmse_deg": 0.7743593102076325,
+      "yaw_final_deg": -0.6847543144954121,
+      "wheel_reference_xy_rmse_m": 0.23164455777059528,
+      "wheel_reference_xy_max_m": 0.23724836625358625,
+      "limitation": "One short recorded route (0.68m,22deg); same initialization for all profiles. No full manual repeat or global relocalization test."
+    },
+    {
+      "profile": "ndt_guarded_global",
+      "domain": 29,
+      "source": "cloud-comparison-20261103-215004 (external dataset)",
+      "initial_pose_source": "top-ranked upstream BBS_2D + NDT candidate; no GT",
+      "truth_fed_to_localizer": false,
+      "samples": 1425,
+      "span_sim_s": 142.23333333300002,
+      "xy_rmse_m": 0.04498368020174702,
+      "xy_p95_m": 0.04641964310330024,
+      "xy_max_m": 0.05736173995100219,
+      "xy_final_m": 0.04571111706749103,
+      "yaw_rmse_deg": 0.12696118004695256,
+      "yaw_final_deg": 0.01004690067550818,
+      "wheel_reference_xy_rmse_m": 0.22869610279487798,
+      "wheel_reference_xy_max_m": 0.2383156556599857,
+      "limitation": "One short recorded route (0.68m,22deg); same initialization for all profiles. No full manual repeat or global relocalization test."
+    }
+  ],
+  "scope": "665 identical depth clouds; ~143 simulated seconds, ~0.68m travel and 22deg yaw range. Shared upstream BBS+NDT initialization, no GT input. This is not a long-route or global-recovery benchmark.",
+  "selected": "ndt_guarded_global",
+  "upstream_algorithms_modified": false,
+  "cloud_preprocessing_changed": false
+}

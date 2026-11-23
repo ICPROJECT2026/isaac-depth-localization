@@ -1,0 +1,30 @@
+/**:
+  ros__parameters:
+    use_sim_time: true
+    restore_saved_pose: false
+    initial_pose_preconfigured: false
+    enable_global_initialization: true
+    require_global_registration_scoring: true
+    cloud_topic: /depth/points
+    global_frame_id: map
+    odom_frame_id: odom
+    base_frame_id: base_link
+    enable_odom_motion_compensation: true
+    default_z_m: 4.48
+    min_candidate_score: 0.2
+    min_score_margin: 0.005
+    max_candidate_age_sec: 60.0
+    query_timeout_sec: 60.0
+    verification_timeout_sec: 12.0
+    verification_fitness_threshold: 0.003
+    verification_samples: 5
+    max_global_attempts: 3
+    global_consensus_samples: 2
+    global_consensus_translation_m: 0.15
+    global_consensus_yaw_deg: 3.0
+    global_consensus_history: 4
+    registration_fitness_high_confidence_threshold: 0.003
+    max_registration_fitness_ratio: 0.5
+    registration_alternative_min_separation_m: 2.0
+    position_std_m: 0.1
+    yaw_std_rad: 0.05

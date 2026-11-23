@@ -1,0 +1,9 @@
+repositories:
+  lidar_localization_ros2:
+    type: git
+    url: https://github.com/rsasaki0109/lidar_localization_ros2.git
+    version: 87b991693acbf00b64300a3e28e158ba95cbe220
+  ndt_omp_ros2:
+    type: git
+    url: https://github.com/rsasaki0109/ndt_omp_ros2.git
+    version: 0cc1621d5eab886569f6e7e36d115fcad894cd72

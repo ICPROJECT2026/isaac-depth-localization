@@ -1,0 +1,2586 @@
+{
+  "description": "Original collected scene, prior pointcloud, and matching auxiliary occupancy grid. Distributed separately; no public download URL assigned.",
+  "pointcloud_points": 11438552,
+  "files": [
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/.collect.mapping.json",
+      "bytes": 311725,
+      "sha256": "0592237f4b3a3073a1640fab5a1ba89d12067ca960ebfab5965f7cf00a5a1c64"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/final_wheeltec_with_scene.usd",
+      "bytes": 513255079,
+      "sha256": "57e14ba9ac61d70faecb4ae4d7bb956278386d5bdfb2cec81f7d551c8f80d59d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Emissives/Light_12000K.mdl",
+      "bytes": 1326,
+      "sha256": "7d50d1501c755c98d7e0026b0b00cdf1ccc3edc69b12535896f7b39c4d224c4f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Glass/Tinted_Glass_R85.mdl",
+      "bytes": 576,
+      "sha256": "a761b027888feb7ea45eb1cf7ce8bb7d255f35d7dd8c808c749dd2d1caa79f1a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Cast_Metal_Silver_Vein/Cast_Metal_Silver_Vein_BaseColor.png",
+      "bytes": 16904,
+      "sha256": "6708f5092a1dc3a66589dbf58d8f577e03dcc309bfa01a5d677639dca9ee2132"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Cast_Metal_Silver_Vein/Cast_Metal_Silver_Vein_N.png",
+      "bytes": 7519899,
+      "sha256": "e8fcb579b0d321e9aae7dc22453f7ade9f28372e475745f8de15930de39d7051"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Cast_Metal_Silver_Vein/Cast_Metal_Silver_Vein_ORM.png",
+      "bytes": 5988267,
+      "sha256": "7e1117ed68410fc6e9342a56aedaa0bf6ad6ea1f352e3326ec17c52d131ec79f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Cast_Metal_Silver_Vein.mdl",
+      "bytes": 2069,
+      "sha256": "bb61a9b2335e645c42387af53f4342b7f361839907c8e76cc6c43295f2c7f6fb"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon/Steel_Carbon_BaseColor.png",
+      "bytes": 9678535,
+      "sha256": "7dd0ba5292a79e9a993279c4db81525446a4313562c32478d14a99d0dfacc55a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon/Steel_Carbon_N.png",
+      "bytes": 18832058,
+      "sha256": "3d1b8196b05715fcac3def696a4a2ccd1db704da1a68e09e3eff863afa09ae9a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon/Steel_Carbon_ORM.png",
+      "bytes": 4258824,
+      "sha256": "b6241ed061f4ff7a6bfde431a157e352e1e7083c862d9ac29a75a59887979018"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon.mdl",
+      "bytes": 1746,
+      "sha256": "4573dda12686c25988392cee850701f6e7a5a2d352d91614456ecb5150610044"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless/Steel_Stainless_BaseColor.png",
+      "bytes": 16902,
+      "sha256": "3f8b3b576ce734630625a64faf6266faf411714a59c42c7af395dc0826e52151"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless/Steel_Stainless_N.png",
+      "bytes": 2272406,
+      "sha256": "8221595d4a575d1e95f059288ce11f1bd0bc7c107ad77bbe482ae7c717816c65"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless/Steel_Stainless_ORM.png",
+      "bytes": 779615,
+      "sha256": "a300aae59deb440b90e73f4ab9e6f0fc2da41ba405442ff988e681df921f2a4e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless.mdl",
+      "bytes": 2019,
+      "sha256": "976b0375c79f2c7262d0e4af785db67735260ff457319c62d50427c957cbf2a8"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Templates/GlassUtils.mdl",
+      "bytes": 2417,
+      "sha256": "18baaa8cd508d85075148b80097c56c4924212928bb196f2d9ee2352d5c618a4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Templates/GlassWithVolume.mdl",
+      "bytes": 4906,
+      "sha256": "54f4f99e1bd8c6cde022dd246a954b9efe9b251a169854f49f582501a9bdf089"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Gypsum/Gypsum_BaseColor.png",
+      "bytes": 4956768,
+      "sha256": "363e2d0eaafe181955bd31a3a4f6727376921d48567aa36ad96d9d30fdd91d43"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Gypsum/Gypsum_N.png",
+      "bytes": 8147428,
+      "sha256": "eb76883e0136b744746aa8a1f3bb0d755ff833a079e62c1f2d016ff610194762"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Gypsum/Gypsum_ORM.png",
+      "bytes": 5104444,
+      "sha256": "48fbab6af4a8cbfe9a27e0536b8ef9fa773745e02a0839be64e0292d066b7041"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Gypsum.mdl",
+      "bytes": 1574,
+      "sha256": "d28071c37892079d3f5369bd222c4aa21626c77166ae08a8447fe9bfc0658d86"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster/Plaster_BaseColor.png",
+      "bytes": 16903,
+      "sha256": "6495a9da707288ad3a1ec6ebb0ab896c4b3f8494b526a4066352321451a84a19"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster/Plaster_N.png",
+      "bytes": 6663591,
+      "sha256": "cf9e55bf593fdbb2407c0f1756ab639a31b2df28d9ef60385c088f0ee22355e9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster/Plaster_ORM.png",
+      "bytes": 4196284,
+      "sha256": "d25854c858fa9e255f824b1880bdc66f0ac9fab31f7dd74d4d062dd4573c6522"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster.mdl",
+      "bytes": 1963,
+      "sha256": "23bee7c3fdd4e5867505528eed0a83e6d84864ae14f654ed229ca7664270865c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_BaseColor.png",
+      "bytes": 16903,
+      "sha256": "d1d042502d7d94bca13cee10c63ab5b3801fb0a46e26d79169e13f5b9c7b5a31"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_Normal.png",
+      "bytes": 3321558,
+      "sha256": "6dc1cb1b23a9abd766188a85ccbad1a2639d0a9a334f284e359c6c5d4438608e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_ORM.png",
+      "bytes": 637843,
+      "sha256": "768f2dbb4f702a9624b912b431efd1a6a8e0ff3e93744cf54f3866ef8f7986e9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized_Black.mdl",
+      "bytes": 1600,
+      "sha256": "55cd651d91a10006b85e076f11910e6a61c76e069b7da1ad057e3939ac2546e0"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Oak/Oak_BaseColor.png",
+      "bytes": 5383545,
+      "sha256": "58648d35e3b8a9d953948ce0394b56aa95184e1f88b5abab139e7a32a2b44043"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Oak/Oak_N.png",
+      "bytes": 2939899,
+      "sha256": "4538148c60da7c94d88d656bbc62106a16bd652052bc196cab56ee6d9e01c249"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Oak/Oak_ORM.png",
+      "bytes": 1171706,
+      "sha256": "754ccca3176ccb3bbeb648af574c57eb5be0b876c579faaf45f9e8a09f71ec39"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Oak.mdl",
+      "bytes": 1935,
+      "sha256": "6499881c02324f599f36119d152d2b6def1ddf1d8de775ef6149118b5a84a322"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Paint/Paint_Eggshell.mdl",
+      "bytes": 49992,
+      "sha256": "2fa7bc835cd597cda8a9b17b8b232bf7b4fcc46b954eea2bbe4e9461ed3dcd48"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Wood/Laminate_Oak.mdl",
+      "bytes": 22504,
+      "sha256": "1aa582ccfcb4cc4d4ec2549169dc2537999dfe09adaa46c188c18bf646b8b9a2"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Wood/textures/laminate_oak_diffuse.jpg",
+      "bytes": 2467433,
+      "sha256": "90ef8ef45d7cb0186b25c35fb5653b06946ffb73bc808a4160eb1e6a53bdedfa"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Wood/textures/laminate_oak_multi_R_rough_G_aniso.jpg",
+      "bytes": 10480809,
+      "sha256": "e426a7ec2e3cca9d19d6703618b015896f9008f94f6baf0612cca78ae30a2a90"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Wood/textures/laminate_oak_normal.jpg",
+      "bytes": 5397470,
+      "sha256": "5fadceb9068374fbab649525991a091e37ac6c02636214480b0e60addd1f6531"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/senior_diff_robot_scaled.usd",
+      "bytes": 8592036,
+      "sha256": "cb59438c78953c6ec17cfa43dde975e73f0b9ff3a7b68bb75c66e35f73276f9c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Glass/Tinted_Glass_R85.mdl",
+      "bytes": 576,
+      "sha256": "a761b027888feb7ea45eb1cf7ce8bb7d255f35d7dd8c808c749dd2d1caa79f1a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Cast_Metal_Silver_Vein/Cast_Metal_Silver_Vein_BaseColor.png",
+      "bytes": 16904,
+      "sha256": "6708f5092a1dc3a66589dbf58d8f577e03dcc309bfa01a5d677639dca9ee2132"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Cast_Metal_Silver_Vein/Cast_Metal_Silver_Vein_N.png",
+      "bytes": 7519899,
+      "sha256": "e8fcb579b0d321e9aae7dc22453f7ade9f28372e475745f8de15930de39d7051"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Cast_Metal_Silver_Vein/Cast_Metal_Silver_Vein_ORM.png",
+      "bytes": 5988267,
+      "sha256": "7e1117ed68410fc6e9342a56aedaa0bf6ad6ea1f352e3326ec17c52d131ec79f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Cast_Metal_Silver_Vein.mdl",
+      "bytes": 2069,
+      "sha256": "bb61a9b2335e645c42387af53f4342b7f361839907c8e76cc6c43295f2c7f6fb"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Steel_Carbon/Steel_Carbon_BaseColor.png",
+      "bytes": 9678535,
+      "sha256": "7dd0ba5292a79e9a993279c4db81525446a4313562c32478d14a99d0dfacc55a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Steel_Carbon/Steel_Carbon_N.png",
+      "bytes": 18832058,
+      "sha256": "3d1b8196b05715fcac3def696a4a2ccd1db704da1a68e09e3eff863afa09ae9a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Steel_Carbon/Steel_Carbon_ORM.png",
+      "bytes": 4258824,
+      "sha256": "b6241ed061f4ff7a6bfde431a157e352e1e7083c862d9ac29a75a59887979018"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Steel_Carbon.mdl",
+      "bytes": 1746,
+      "sha256": "4573dda12686c25988392cee850701f6e7a5a2d352d91614456ecb5150610044"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Steel_Stainless/Steel_Stainless_BaseColor.png",
+      "bytes": 16902,
+      "sha256": "3f8b3b576ce734630625a64faf6266faf411714a59c42c7af395dc0826e52151"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Steel_Stainless/Steel_Stainless_N.png",
+      "bytes": 2272406,
+      "sha256": "8221595d4a575d1e95f059288ce11f1bd0bc7c107ad77bbe482ae7c717816c65"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Steel_Stainless/Steel_Stainless_ORM.png",
+      "bytes": 779615,
+      "sha256": "a300aae59deb440b90e73f4ab9e6f0fc2da41ba405442ff988e681df921f2a4e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Metals/Steel_Stainless.mdl",
+      "bytes": 2019,
+      "sha256": "976b0375c79f2c7262d0e4af785db67735260ff457319c62d50427c957cbf2a8"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Templates/GlassUtils.mdl",
+      "bytes": 2417,
+      "sha256": "18baaa8cd508d85075148b80097c56c4924212928bb196f2d9ee2352d5c618a4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Collected_rebuild_window3_merge/texture/Templates/GlassWithVolume.mdl",
+      "bytes": 4906,
+      "sha256": "54f4f99e1bd8c6cde022dd246a954b9efe9b251a169854f49f582501a9bdf089"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/GRASS/Poliigon_GrassPatchyGround_4585_BaseColor.jpg",
+      "bytes": 18831915,
+      "sha256": "e89ebe291ffa2c17882b4e8b1f85ef88283681506ad7f50053b9d21f8fd7ff6d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/GRASS/Poliigon_GrassPatchyGround_4585_Metallic.jpg",
+      "bytes": 66663,
+      "sha256": "ee4181159e76626d1e2ac7099f43417d9a202c2b1c895234d40a35c691bb7a99"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/GRASS/Poliigon_GrassPatchyGround_4585_Normal.png",
+      "bytes": 42619559,
+      "sha256": "c1bb9fbacce56e83f7a48594d16dfdc93ecd6727fbe94bbcc851523945ad1b27"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/GRASS/Poliigon_GrassPatchyGround_4585_Roughness.jpg",
+      "bytes": 9187928,
+      "sha256": "f83a9f6424622756a746a23d953f87696a5f91e21204eaf32dd3738b6706a6e2"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/concrete/ic_concrete_ground.png",
+      "bytes": 73161322,
+      "sha256": "006476818df74f5c573bfa28f4544f8c840789f80e299d2aae7ad6259078dc3e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/default.mdl",
+      "bytes": 1341,
+      "sha256": "095d0cc649200bd812efb0803f55ecb87e9ee1b828d94a5ec82c613e7a25b94a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/forest_green.mdl",
+      "bytes": 1346,
+      "sha256": "3e165d713393217e42655a7f9af5da763e677101414068539899e2d71acdcfa6"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/glossy_black.mdl",
+      "bytes": 1348,
+      "sha256": "bb1b70da9339f55c63828e79873fc13fed1876009fcf44f4bd6d74bf20f1f96f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/hitachi_logo_color3.iff",
+      "bytes": 314480,
+      "sha256": "8d9ffddefeb437f487dfd1001f2ec6e75f65e96b3c0262127783a6fcba43095a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/light_red_orange.mdl",
+      "bytes": 1350,
+      "sha256": "3af6685ad410f9e1945c67dfc43ed79ff68d0b8bafc97d3ee4490d6941d3a971"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/neutral_gray.mdl",
+      "bytes": 1346,
+      "sha256": "4a1480cb456ec76e35fe00946daaf602240b7a0dcf5f0afc6ea2a4caad8b8f48"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/orange.mdl",
+      "bytes": 1340,
+      "sha256": "6e90c7c04b3f621f95bfabb24bdbdbbd0a5e4e0af261722b0daef399fef7d72e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/phase_temporary.mdl",
+      "bytes": 1351,
+      "sha256": "2a2d07f5619132aecc43949ea1a478ea516c5e89c1df0951990ea5d9ff8efe75"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/red.mdl",
+      "bytes": 1337,
+      "sha256": "ca967321999bba935022876d2a0ab91e7ae2c82b6184126727f11e4629fcede4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/render_material_0_0_255.mdl",
+      "bytes": 1357,
+      "sha256": "1601315fa5dbcb7d0058bb3ab342f835a465bf0035812d4be57dbf2275b38290"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/render_material_0_255_0.mdl",
+      "bytes": 1357,
+      "sha256": "96ddd96c2ab03a32cbfede92781fe404053700e04d30c17adecabb8e68472424"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/render_material_0_255_255.mdl",
+      "bytes": 1359,
+      "sha256": "4335adad411ed15d4422c046cf540038b8a802844ae2380ac9b24ff77f4cf622"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/render_material_255_0_0.mdl",
+      "bytes": 1357,
+      "sha256": "600a96d8dca71c36acd38727b1243d309280e35ae7577e83bbeedbceae2e15a7"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/render_material_255_0_255.mdl",
+      "bytes": 1359,
+      "sha256": "46cb07f13354a17c670aad2699839930e611a4900b7d1abc01dfb1342773d302"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/render_material_255_63_0.mdl",
+      "bytes": 1358,
+      "sha256": "d70cd9715608f03f333fd514fbefa6e01c35ea257d68caf375374e1e8d247950"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/semi_polished.mdl",
+      "bytes": 1347,
+      "sha256": "1a73f9e0990b8cd8cba0f6d396cc74b44f63c333c5e95b6237e7dd16eb527c17"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/stainless_polished.mdl",
+      "bytes": 1354,
+      "sha256": "5ad1e9e255e9558fa0b29934f4b2c2beb5287a4791f695e4bbd793948d3d3450"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/stainless_satin.mdl",
+      "bytes": 1351,
+      "sha256": "7c010193e55d5d89f9a89b71e412ebe271d740a887038d75c7346d22e5b4974f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/raw/white.mdl",
+      "bytes": 1339,
+      "sha256": "4132cca973504785d67c83678a3e4db6c93d9703bb05ac698f4742cb8d1aa993"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/_100_0878a.jpg",
+      "bytes": 57284,
+      "sha256": "fd6ac2f62e32462e95e2ad435c8f642907fb7819bf739e83a90c1d19e79de83d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/_100_0881.jpg",
+      "bytes": 52491,
+      "sha256": "02f2d79101f6e9f032c78a91b8c115d0eca9e1e85fc8ed83295b1264aa9ea39e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/_100_0883.jpg",
+      "bytes": 78866,
+      "sha256": "979db2383017df1fdda52ce1ec8d94505850ffd54731e99ba59b84681eab75e8"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/automatic_door_sign.jpg",
+      "bytes": 102767,
+      "sha256": "a694aba371b74dfb23dadbebb6bd44783fe1ac99ce3bbb74dd30f59fb4e8d70a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/beam_stand_stainless.jpg",
+      "bytes": 25849,
+      "sha256": "0c27fa54545ab60d17d96c6ad78c53bf40928bd068889ce70d1ace610c7392c6"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/deskinroomuv2.jpg",
+      "bytes": 47242,
+      "sha256": "02cfac0d58c2829e2717e6db137989ac6bb11a2753f1f3cb8c25a0c4948f61b6"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/diffusecolortex.png",
+      "bytes": 8544,
+      "sha256": "058355ceb768fa9069d3eada1e03cce0217d89ce3a0a3bc6597ac0d0cf545fd8"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/exit.jpg",
+      "bytes": 126888,
+      "sha256": "fbf6a7d9035c990008930af6f50edd9a9303121f3b1ec6f81ef80223a5ed33c5"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/export3dcoat_color.tga",
+      "bytes": 67108882,
+      "sha256": "8e54ad158cf39384ad2f46c33735b76d363f59c8f10f2ed2c7615ef7fde39a84"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/export3dcoat_nmap.tga",
+      "bytes": 67108882,
+      "sha256": "8df68201d935babfdd6b00d5a9020bcb558e6dc25e14a9a2ed80d586de14ac57"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/hitachi_logo.jpg",
+      "bytes": 73676,
+      "sha256": "07cb376b2720e838153f2acaebae1b865985eaf89c475fc3d776411f0b05e64b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/metal.jpg",
+      "bytes": 16093,
+      "sha256": "533e0ddb63bb8a980a1d6c2b6d70a13644b1d8539aad1c264da0c5b0a5322621"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/metal_seamed.jpg",
+      "bytes": 920,
+      "sha256": "98b80b06330256fdd9843306bcb8fcbb4db40ea9df3e027737f8c16da78830fe"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/normaltex.png",
+      "bytes": 8544,
+      "sha256": "4060dd542306633001e0c4ac70ed19f42625428daf1c96a8c38add62b2c84fd5"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/roughnesstex.png",
+      "bytes": 8544,
+      "sha256": "9c1fa814b9d0a14e286a85c258328c61c9ce7701e558a807e74d4b81ce206fc8"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/screw_thread.jpg",
+      "bytes": 42685,
+      "sha256": "d2908a8c5042c1cf8fbfcb24d3fab8a902dc94419b2c2bc99e1713acf5c21669"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/Omniverse/kit-app-template/_build/windows-x86_64/release/_assets/_assets/export_airlab/export_airlab/textures/steel_cast_basecolor.png",
+      "bytes": 20161303,
+      "sha256": "54b3f891982799ad54bdcb70b0909931092cf2a1ee6e004ae42d0811b7ba9873"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/couch_gold/textures/gray_couch_tripo_part_3_basecolor.jpg",
+      "bytes": 18279,
+      "sha256": "84c0be70388347c58da634ce287e7d2409fabd05832034e5a8baa71f9fee8886"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/couch_gold/textures/padded+ottoman+3d+model_Clone1_Clone1_Clone1_tripo_part_0_basecolor.jpg",
+      "bytes": 4350023,
+      "sha256": "391d6cdfacd6fd772e0213a20f05ea2ef5d1f7830aa9a67a5dc9a9287adb821b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_blackPlastic_A.png",
+      "bytes": 231020,
+      "sha256": "ef52ded6cd4e65dde419909442a8a77f95105af7816ad4fd656c1f94a8cff728"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_blackPlastic_N.png",
+      "bytes": 231019,
+      "sha256": "ef4ce6d1bcb9301e7de615e62eed4a12121f5009bb54ecb925842f45345bc3a9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_blackPlastic_R.png",
+      "bytes": 82712,
+      "sha256": "fa84b54ab7ed133cce276e9afb1bf33f863e8c1d286447db69e132822ffc5214"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_fabric_A.png",
+      "bytes": 11090697,
+      "sha256": "ec385abc7639d8dc55485913975e363bd0ae6f1d2415ffe1800e1054d4044866"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_fabric_N.png",
+      "bytes": 15167286,
+      "sha256": "bd7c93a29ebd9528bf9ef169a8e2b79509f790d6100e273da00071824f2cbc95"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_fabric_R.png",
+      "bytes": 82713,
+      "sha256": "541919ff70b80c0b76508f729332c373fe42b8c29649de2f63ee85a54abb1e11"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_net_A.png",
+      "bytes": 231020,
+      "sha256": "33e662428d0f5badad04de27177d71d266928a14f037dcae42ae3694c9befacc"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_net_N.png",
+      "bytes": 1679275,
+      "sha256": "7fe366eb569d7f863149d913d49ac09f4dc071950ff616fd0e7f6d603060b07d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_net_O.png",
+      "bytes": 668523,
+      "sha256": "57e1536c2d89f4ca1e2dff90cbd053b3ac0522258e39fcf592da5c56b7995157"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_net_R.png",
+      "bytes": 82713,
+      "sha256": "ea4b1f919042f3520b4101df6fbf5dbfb3e5be589db86354e545a843a1cb8be8"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_steel_A.png",
+      "bytes": 231020,
+      "sha256": "980649a6c51ecc96b3bddff77664a8a5591b3151ebc349135c46acb26c0111bb"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_steel_M.png",
+      "bytes": 82712,
+      "sha256": "46ed219a57dc78081c83b825ce8f6f09a4acd94c7a313770493d3e26ffe76ec4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_steel_N.png",
+      "bytes": 231019,
+      "sha256": "ef4ce6d1bcb9301e7de615e62eed4a12121f5009bb54ecb925842f45345bc3a9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/office_chair/Textures/Steelbook_steel_R.png",
+      "bytes": 82713,
+      "sha256": "a4e402c852d37cff1220af7ffe99b352fae4044ace5026197655285baf86dba6"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/ArtsPages_BaseColor.png",
+      "bytes": 2044320,
+      "sha256": "ff715aee511f94cbad04b6716cc3c80d7e65c148ab8caa7565bf75e782e3b009"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/ArtsPages_N.png",
+      "bytes": 2295385,
+      "sha256": "40cdb7b427fb53e1d01ff77ac2ce16c2ad2802ac4c2c5c542417d2c1232929a9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/ArtsPages_R.png",
+      "bytes": 25578,
+      "sha256": "f0fff6b979e05fb14e46ed474c2fbd7fa0ea5750ce1a7f65ca8b1269cb8b0af1"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookHardcover48_A.png",
+      "bytes": 18319873,
+      "sha256": "dbebff2e0a55e023d3b20f6c8bb68e2c89732b8c0a0b2c79d9127a82a828f500"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookHardcover62_A.png",
+      "bytes": 8477609,
+      "sha256": "f66d5854e0cd318a443683f50f6b649473424248237279c73568d36c28b9288c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookHardcover80_A.png",
+      "bytes": 16559213,
+      "sha256": "3aa6fbb1b43975967130c23eea03f29c87c4f03dba02ec29a40c20fb971b052d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookHardcover_N.png",
+      "bytes": 9713509,
+      "sha256": "4c6bf5a6482774d3f7fa85675d50f97f53ef594b9f1ca76b10df425b1150393f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookHardcover_R.png",
+      "bytes": 2318676,
+      "sha256": "ef2a4985e869826659bbfd0470000d2c5ceca56367b53fb98a2740d70bd29176"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookSoftcover45_A.png",
+      "bytes": 6457275,
+      "sha256": "863822dce26b764476e98b0e665e3f112dd20d0b7814a6afde3e4c5c475e92b7"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookSoftcover46_A.png",
+      "bytes": 9729479,
+      "sha256": "f7deb25a115dd2140f4c3f1179af0c5395e103fdc9a38c1cfedd4e09f1f6b861"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookSoftcover52_A.png",
+      "bytes": 5897670,
+      "sha256": "220926170bca55bc104fd5feba58e1e705b2fae75283a9fb3afd600fba210c6a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookSoftcover58_A.png",
+      "bytes": 6395920,
+      "sha256": "4071cca86b1e66b33a43425bc74c7fbf677ed1e06b2a008357c41c89c05da1fa"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookSoftcover63_A.png",
+      "bytes": 5165647,
+      "sha256": "60c0c3baac77665ed9d381ab3d9e3828b8afc6fcacf82e34b83d308b2c3894a2"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookSoftcover81_A.png",
+      "bytes": 7149658,
+      "sha256": "c00c1e7929265a63668391f2cdf9f191b57ce26453af9f449f95af29d07961a5"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookSoftcover86_A.png",
+      "bytes": 12169587,
+      "sha256": "a0bac13e2f70812209523e23e6c0cf276616c4aa733dd9b4aa4493f4b3b5a3b6"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookSoftcover_N.png",
+      "bytes": 9115323,
+      "sha256": "cf03531c62f3a72502d66ea7fe4543375a4c7b93207a50f61b15f747550785ed"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/BookSoftcover_R.png",
+      "bytes": 2274498,
+      "sha256": "d89118bc692ffdf280254a93c4bcd4391b5fb15db6e0d6022c2ae651e3608ff3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/CatalogueHardcover44_A.png",
+      "bytes": 10127438,
+      "sha256": "c23707de241cf92b8cd1bcac0676342713cb7ca939b50b0b7e81af94c74eab79"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/CatalogueHardcover55_A.png",
+      "bytes": 11182021,
+      "sha256": "014b300af67b75213b6eb62d8529bb11214b2439e8fc05d9e3248141ad4739c0"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/CatalogueHardcover60_A.png",
+      "bytes": 9011145,
+      "sha256": "964a3be6b2a2a56525d331f590773875f897a56566b04d90fc1835c059a3bb40"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/CatalogueHardcover_N.png",
+      "bytes": 7845380,
+      "sha256": "d249b5d1ca71e8ebf54760e24dfb934167c77325554cd68229f2f812179cbb40"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/CatalogueHardcover_R.png",
+      "bytes": 2290956,
+      "sha256": "37f14265f9ed8e09d33bf4adbee9168266a62b1c92613dda2d956338dbe95a7a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/CatalogueSoftcover26_A.png",
+      "bytes": 9352119,
+      "sha256": "dfbcc33508b1ccd02c7cc1bd99ae6d00d22cb3ffe0406b0947b2b9bccc4ce859"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/CatalogueSoftcover57_A.png",
+      "bytes": 5309160,
+      "sha256": "a353a08ce888f19af445d9b2adcfa2d42dff0743ee4934cdd0532562f8a1e016"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/CatalogueSoftcover_N.png",
+      "bytes": 7765278,
+      "sha256": "7eff35cebd03fe379bdeb064d714e3d2225ddceb77fcc1521a097d052deb095f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/CatalogueSoftcover_R.png",
+      "bytes": 2281562,
+      "sha256": "12a2f3b6aba85e7d06474e1c7172a68c1227ebc8d8c8777b9898960db124c581"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/Omni2016Cover_N.png",
+      "bytes": 22825681,
+      "sha256": "cb86384cd652fa49a4aed66b7a351a26b9119c4c5f5569e8021990cff2015608"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/Omni2016Cover_R.png",
+      "bytes": 7548081,
+      "sha256": "5a8e34be8e774c0344fcf38dbd249e11a38ddebd810fc04d590a58cb75c708e1"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/ArchVis/Residential/Decor/Books/Textures/Omni2017Cover_BaseColor.png",
+      "bytes": 10177754,
+      "sha256": "9eae53011cdec2b2b78ded7c9397edab278d3e2373b328833529e13f9a2fb538"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Chrome_A.mdl",
+      "bytes": 1587,
+      "sha256": "4380036ed72a4038e0544a692e4d499c85d7c4f6a2aaae86ec8d7633b28b012e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Metal_Glossy_A.mdl",
+      "bytes": 915,
+      "sha256": "12eecaaea8d657a16df91fb35f6631aa89a66990ba0a4a9e0de8c39cc4227789"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Metal_Rough_A.mdl",
+      "bytes": 876,
+      "sha256": "cf9dea61f474914583cc71802ccee180eddf58ee8596479296fbdda9b67bee6e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Textures/Chrome_BaseColor.png",
+      "bytes": 1055421,
+      "sha256": "827f80497e8d33b9b305ef1ec6129c0f3298f5392f6e437677c4d179e93bab5b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Textures/Chrome_N.png",
+      "bytes": 6278335,
+      "sha256": "a70377c089f19b3a3a369b2d7491b27c939f6111f223ca74a45ee067eef3ab6d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Textures/Chrome_ORM.png",
+      "bytes": 3647903,
+      "sha256": "f8b224a5e0c5732b7efe69b8a4e22c34b327bd130bed6ed53c672a2ee5b03441"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Textures/T_Metal_Glossy_A_Albedo.png",
+      "bytes": 17018568,
+      "sha256": "bbb6a7fd1d0627aa44115b96a93c293d11b8eb164b5e0cbd767813644e47e65b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Textures/T_Metal_Glossy_A_Normal.png",
+      "bytes": 4969669,
+      "sha256": "f26a7354c9fcdd1b921aba49bd71c0d529cc68d404386d787ea3cd1872fbdb0e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Textures/T_Metal_Glossy_A_ORM.png",
+      "bytes": 14112974,
+      "sha256": "6d9b0891ee9d4a8dca391cfe5f0f0800d40754465d0b0ca25b95352565457e8d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Textures/T_Metal_Rough_A_Albedo.png",
+      "bytes": 37876965,
+      "sha256": "2dbe51946f73ea5559c8d8d3867a23a9ff4d3028290c9d0c2d77121c99917bd2"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Textures/T_Metal_Rough_A_Normal.png",
+      "bytes": 19619769,
+      "sha256": "6d3c79a5ffc079c5a48a19a23bb08414122de0deaa3c20a0d7a559149fe18d5e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Metals/Textures/T_Metal_Rough_A_ORM.png",
+      "bytes": 14732222,
+      "sha256": "3beb4bc13080a75d17206a296a63896e87e8a97854721a2270bcac4e602602f3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Natural_Plastic_E.mdl",
+      "bytes": 8882,
+      "sha256": "51035dbe0e4ad366e1141c021cb4f1b8a364895a80aee2b7ec743466b4e3b691"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Plastic_B.mdl",
+      "bytes": 1893,
+      "sha256": "8abe4a36ae566ed2fadbb8ec38c2bac8ad449f3671dccb9def6371b6293b9821"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Plastic_Black_A.mdl",
+      "bytes": 1973,
+      "sha256": "55946bf90c79bb6796de00f1c9f81d47447b9864a642bca0b54ea0493cc85d38"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Plastic_Blue_A.mdl",
+      "bytes": 1967,
+      "sha256": "1f9795fadd3731da27ea57a0e1988513246add462390727495b97fd697ff0cdc"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Plastic_Glossy_White_A.mdl",
+      "bytes": 1469,
+      "sha256": "a7332d9edbf96a1af27c24ebbd31b62612d36793a7037fbd4e9a63f11d6e9fd6"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Plastic_Gray_A.mdl",
+      "bytes": 1968,
+      "sha256": "dbcb2e747055960b4ff6362063f9de4e9bb4583f8853d4baab77c45695fd69be"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Plastic_Green_A.mdl",
+      "bytes": 1973,
+      "sha256": "c1c4efb186209f32c7eb0a69489c6924837c6f62886c6b09a9cd4bcbbbd1d7ff"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Plastic_Orange_A.mdl",
+      "bytes": 1979,
+      "sha256": "4c639563c26eced40cc855d1adcad2da76a8198412566bc7ff6a3b04683717c4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Plastic_Red_A.mdl",
+      "bytes": 1961,
+      "sha256": "9693e2289f4c98651d34dc815da92ed68d443037d633c057e11d716d5cdc0d38"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Plastic_Violet_A.mdl",
+      "bytes": 1979,
+      "sha256": "8d1a51342f6930f83ffb41c50e88ab3ff0c3204aa562d0cf2e0ba06d52c9dda3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Plastic_White_A.mdl",
+      "bytes": 1973,
+      "sha256": "4e5e3f4aaec159922ebac9d405546721f9394ee2309a439c44b79c4ba5cc26d3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Plastic_Yellow_A.mdl",
+      "bytes": 1979,
+      "sha256": "0d30248360b97600a718d3c21bf9adcbf06395347e9d23502cbc230888d8eb4f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_Black_A_ORM.png",
+      "bytes": 3861820,
+      "sha256": "4d8e2f38c8c0cf1514fc8e11b7e52342259a3f8cf01f17b688a4d40340eefe2f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_Blue_A_ORM.png",
+      "bytes": 3156387,
+      "sha256": "46c623a21a7dd1f8dad4e959c39968dc853e7d4fb5d85b939bbb271d2ee0402d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_Gray_A_ORM.png",
+      "bytes": 3257454,
+      "sha256": "63e070b9c902612fe9af6d8d248f24decde3eceda288154217cc28c7c27e4b96"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_Green_A_ORM.png",
+      "bytes": 3214833,
+      "sha256": "63d636fc6668067c848c0b36d491d0d1c9d73bfcd8ee67e61c61fe582b4567be"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_Normal_1k.png",
+      "bytes": 4152274,
+      "sha256": "017086a4fb5d697900eaa4f52a4918ad7d559405dc733e8af3b090efc5875300"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_ORM_1k.png",
+      "bytes": 901654,
+      "sha256": "c0c44b42d69832fa25d0749a55d36e7d5aa1ceba445d1e48ff026f220bd0f28d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_Orange_A_ORM.png",
+      "bytes": 3275073,
+      "sha256": "47bf496092f8b3594966649e4e0168a9be461829919eabd34b955d272ccbcf0a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_Red_A_Albedo.png",
+      "bytes": 3348057,
+      "sha256": "a2ec9e48b8d34257d1b59cbbc66ffd06877bda93b07f4c5a02c3e768442757b2"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_Red_A_Normal.png",
+      "bytes": 19456849,
+      "sha256": "63182beb11e6882b91f1c641b586646c43e4a508ce97efbdc407ad9ff6db3b8e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_Red_A_ORM.png",
+      "bytes": 3378298,
+      "sha256": "be37c7a5204c0576f39a4d4ddbf39bdeb8501e2ac3237e92386acb8f025af175"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_Violet_A_ORM.png",
+      "bytes": 3274868,
+      "sha256": "568ee54fe51eca439de5018a4e1e836cee94ed6b115abb5e4ab38ada5c88af65"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_White_A_ORM.png",
+      "bytes": 3056779,
+      "sha256": "9cce4d2e6ea569cd0efd01992d141abd0d9d82cf38f6b4caf36647db1765d6e9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/DigitalTwin/Materials/Base/Plastics/Textures/T_Plastic_Yellow_A_ORM.png",
+      "bytes": 3403092,
+      "sha256": "864426d2027461911904d07c3441276a9dc371bd1ace96ea581864dcf8b5959a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Architecture/Ceiling_Tiles/Ceiling_Tiles_BaseColor.png",
+      "bytes": 17222,
+      "sha256": "d1ba557685e8cc95a4ef99adb2094b8780dcdad7668e55a9538e493c4540607f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Architecture/Ceiling_Tiles/Ceiling_Tiles_Normal.png",
+      "bytes": 6053004,
+      "sha256": "f9e4751ce60f50036b39920e89d553b25b1c427e39d7411b4286b6933147476b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Architecture/Ceiling_Tiles/Ceiling_Tiles_ORM.png",
+      "bytes": 2241938,
+      "sha256": "a8936ac4a6c775535683b8a4d4b5c1c662f7490e9216d9fdfe04538680bcf065"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Architecture/Ceiling_Tiles.mdl",
+      "bytes": 1859,
+      "sha256": "41450bcb9d1875f4e3bd2c20a6f4629fa39c6b834539267970621ba8ff8e273b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Carpet/Carpet_Berber_Multi/Carpet_Berber_Multi_BaseColor.png",
+      "bytes": 3989551,
+      "sha256": "d036db8c3fbd514d1758451868cc30f2255be34130cdd15a0d8a018fca1765bd"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Carpet/Carpet_Berber_Multi/Carpet_Berber_Multi_Normal.png",
+      "bytes": 8295994,
+      "sha256": "6e030222655ff7c2369cdd0e21f52a2a050887304df2bc7caba548e4466111ae"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Carpet/Carpet_Berber_Multi/Carpet_Berber_Multi_ORM.png",
+      "bytes": 1310373,
+      "sha256": "5fcad54032aee01a91e3785b6484b96864cb2a26509cdab27919ee3c73860388"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Carpet/Carpet_Berber_Multi.mdl",
+      "bytes": 1505,
+      "sha256": "c2deb0df12cb10f4cdda593652d2732f10f0a9ce4c40b45a2cb181b540fa911f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Carpet/Carpet_Charcoal/Carpet_Charcoal_BaseColor.png",
+      "bytes": 1038458,
+      "sha256": "70339892ca7532aaa59121a0f219dcdeda732de9b32e0706bee69a1b734afefb"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Carpet/Carpet_Charcoal/Carpet_Charcoal_Normal.png",
+      "bytes": 12036161,
+      "sha256": "2fa6d833196f8d57f9b5c9271afdd9a8f7c1e85f0513634222b77ababc65e59c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Carpet/Carpet_Charcoal/Carpet_Charcoal_ORM.png",
+      "bytes": 16901,
+      "sha256": "92cf3d89aae778188dff99071d86e1c2ef911748c87f0ecec4eb5ef8d8149935"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Carpet/Carpet_Charcoal.mdl",
+      "bytes": 1532,
+      "sha256": "dd19215d40a8e90d46b2097c6c9f832bbfd360928744423afab6e3f22a2a6e62"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Emissives/Light_12000K.mdl",
+      "bytes": 1326,
+      "sha256": "7d50d1501c755c98d7e0026b0b00cdf1ccc3edc69b12535896f7b39c4d224c4f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Glass/Blue_Glass.mdl",
+      "bytes": 566,
+      "sha256": "86c977a46f9b0e19a12573204e2db42292748145600a6e40d3de76d101dbdd13"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Glass/Clear_Glass.mdl",
+      "bytes": 1177,
+      "sha256": "5454a44463d100c648eeec2ae1c2e12ef9d16f0d4caebf675ff65e8427a6b40a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Glass/Red_Glass.mdl",
+      "bytes": 565,
+      "sha256": "40d382022313970fadbc1d055efab19cb55baf6698912c2723130ec1905af184"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Glass/Tinted_Glass.mdl",
+      "bytes": 572,
+      "sha256": "8c5476de1b798dab6e9f942943033c664f0b4dd462721e6a2674335ec6a6f5ff"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Glass/Tinted_Glass_R25.mdl",
+      "bytes": 576,
+      "sha256": "aa236c97b579007de425b39a7f8cb3922330f89215b491fb9b19d3d5f6d25660"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Glass/Tinted_Glass_R85.mdl",
+      "bytes": 576,
+      "sha256": "a761b027888feb7ea45eb1cf7ce8bb7d255f35d7dd8c808c749dd2d1caa79f1a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Masonry/Brick_Wall_Red/Brick_Wall_Red_BaseColor.png",
+      "bytes": 5001030,
+      "sha256": "7ca8398aec03744df1088294ad56fb5b7668759f5351c4182b2d2cf885dc4f8a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Masonry/Brick_Wall_Red/Brick_Wall_Red_N.png",
+      "bytes": 8659449,
+      "sha256": "62f670b93f73a51743e3580be1e72962d58fb96b0ab562887fd0e30a15bbd615"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Masonry/Brick_Wall_Red/Brick_Wall_Red_ORM.png",
+      "bytes": 4930407,
+      "sha256": "48f9c911d63306ed21560d8045348c1ebdaed10d5720a6277b2badff6836f316"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Masonry/Brick_Wall_Red.mdl",
+      "bytes": 2012,
+      "sha256": "6de80bfe0d0418bb27ffec13d9bed2ec87cd7a79f77594dc7c2670a812ad5b7e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Masonry/Concrete_Smooth/Concrete_Smooth_BaseColor.png",
+      "bytes": 5871529,
+      "sha256": "b689b120bb3a4ad428d31a455f584e8371af3fcce5825f1d61120f93cd263ec1"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Masonry/Concrete_Smooth/Concrete_Smooth_Normal.png",
+      "bytes": 9269027,
+      "sha256": "94598acbe252fa87aa7bc4ad6f14da743578e03c325e2c9e46b179b1c9eab02d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Masonry/Concrete_Smooth/Concrete_Smooth_ORM.png",
+      "bytes": 2289864,
+      "sha256": "4f9403f411c15d307cf9eacbf9ec2b33ab7a3348be717712096689f9e1584ace"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Masonry/Concrete_Smooth.mdl",
+      "bytes": 1529,
+      "sha256": "3adaf3b5fb9764e23a6a74e41a1d3902a51b36b60114f39336905f729953f24e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_BaseColor.png",
+      "bytes": 16903,
+      "sha256": "d1d042502d7d94bca13cee10c63ab5b3801fb0a46e26d79169e13f5b9c7b5a31"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_Normal.png",
+      "bytes": 3321558,
+      "sha256": "6dc1cb1b23a9abd766188a85ccbad1a2639d0a9a334f284e359c6c5d4438608e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_ORM.png",
+      "bytes": 637843,
+      "sha256": "768f2dbb4f702a9624b912b431efd1a6a8e0ff3e93744cf54f3866ef8f7986e9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Anodized.mdl",
+      "bytes": 1586,
+      "sha256": "5469bfef01fbd8c4b1784ed90884a29d93eb68ce6f27a8ae61803411ea3fb713"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Anodized_Black.mdl",
+      "bytes": 1600,
+      "sha256": "55cd651d91a10006b85e076f11910e6a61c76e069b7da1ad057e3939ac2546e0"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Anodized_Charcoal.mdl",
+      "bytes": 1600,
+      "sha256": "640855d3890c6faaae6346a850ef9f366d4b397c0f4313e25c7ac0b9230c106a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_BaseColor.png",
+      "bytes": 1154931,
+      "sha256": "03ab7494d37e1f6551a26894628c5fe03a65b4d85a09ed11337e184852a580b3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_N.png",
+      "bytes": 6557833,
+      "sha256": "812c0161ea14abc581cb35c47b33dc6005c089f8e82dca6cb4dd4832deb0556c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Cast/Aluminum_Cast_ORM.png",
+      "bytes": 4198310,
+      "sha256": "571eba5a99da444b681609a722a29914490c6dae45d230dac471a45875211a4c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Cast.mdl",
+      "bytes": 2006,
+      "sha256": "78c3edb2398c7a48618ebe011a9a9d09802e56e1af041ea7797b115f934bce53"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Polished/Aluminum_Polished_BaseColor.png",
+      "bytes": 16903,
+      "sha256": "d1d042502d7d94bca13cee10c63ab5b3801fb0a46e26d79169e13f5b9c7b5a31"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Polished/Aluminum_Polished_BaseColor_1.png",
+      "bytes": 16903,
+      "sha256": "d1d042502d7d94bca13cee10c63ab5b3801fb0a46e26d79169e13f5b9c7b5a31"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Polished/Aluminum_Polished_Normal.png",
+      "bytes": 2272406,
+      "sha256": "8221595d4a575d1e95f059288ce11f1bd0bc7c107ad77bbe482ae7c717816c65"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Polished/Aluminum_Polished_Normal_1.png",
+      "bytes": 2272406,
+      "sha256": "8221595d4a575d1e95f059288ce11f1bd0bc7c107ad77bbe482ae7c717816c65"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Polished/Aluminum_Polished_ORM.png",
+      "bytes": 643206,
+      "sha256": "27a1ffae09aca47be92ea6d9df39d365c58fb7e4d6a28ed3d14563a696b5dad4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Polished/Aluminum_Polished_ORM_1.png",
+      "bytes": 643206,
+      "sha256": "27a1ffae09aca47be92ea6d9df39d365c58fb7e4d6a28ed3d14563a696b5dad4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Polished.mdl",
+      "bytes": 1586,
+      "sha256": "0d2a44e875e779a9365ad2addc4d3b1c86427daf237d59dcb9aa2af846d1bd11"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Aluminum_Polished_1.mdl",
+      "bytes": 1592,
+      "sha256": "429591959bfaafe940005f0b17a1287eeb6cd5d918598f4657c7b5b944031e7f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Cast_Metal_Silver_Vein/Cast_Metal_Silver_Vein_N.png",
+      "bytes": 7519899,
+      "sha256": "e8fcb579b0d321e9aae7dc22453f7ade9f28372e475745f8de15930de39d7051"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Cast_Metal_Silver_Vein/Cast_Metal_Silver_Vein_ORM.png",
+      "bytes": 5988267,
+      "sha256": "7e1117ed68410fc6e9342a56aedaa0bf6ad6ea1f352e3326ec17c52d131ec79f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Cast_Metal_Silver_Vein.mdl",
+      "bytes": 2069,
+      "sha256": "bb61a9b2335e645c42387af53f4342b7f361839907c8e76cc6c43295f2c7f6fb"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/CorrugatedMetal/CorrugatedMetal_BaseColor.png",
+      "bytes": 32529485,
+      "sha256": "933e4987d2cebf1884f7695bbe69ce1c6583b54557b0c36673ec905ebb167a81"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/CorrugatedMetal/CorrugatedMetal_N.png",
+      "bytes": 4015125,
+      "sha256": "b585a8fffbdf017ed163b44f0ce1aefd49f248663864a0c85596ae8438394ddb"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/CorrugatedMetal/CorrugatedMetal_ORM.png",
+      "bytes": 16576860,
+      "sha256": "938cd40f75116bbadd0131d9215bf4769972b02f331b39d0ed4b7979c52547cf"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/CorrugatedMetal.mdl",
+      "bytes": 1637,
+      "sha256": "6c37d4f78125d397db9c751e430a16c7204d024cf2a72cb11d2a83231052908b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Iron/Iron_BaseColor.png",
+      "bytes": 6191967,
+      "sha256": "a6dfd99dda89054212b3610ec32efc35ac09607a58f560fee42cc7aef721ec07"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Iron/Iron_N.png",
+      "bytes": 24544686,
+      "sha256": "9e1127afe0a33ac5d7c9ab888228080c6d46b34b0d5b98f6484d6f7d0f40915b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Iron/Iron_ORM.png",
+      "bytes": 13004040,
+      "sha256": "f1b4f0f3db1db87e07e2ba8eaf96af1b8a68425ebd4b180d22d74979d4b4a0f6"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Iron.mdl",
+      "bytes": 1943,
+      "sha256": "e8e28b7d1818ef330b9401a1d25ba933a34f964f9d7569edac2ee975f4228ab2"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Metal_Door/Metal_Door_Normal.png",
+      "bytes": 6720425,
+      "sha256": "c9701860853f984235b3db15bb809dcd54e8b6fd18a0a8bf56e5729526ab04b7"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Metal_Door.mdl",
+      "bytes": 1504,
+      "sha256": "b757d5424caf677f4724e625686f51e3f9b334fb4a67a0395a4a49d0fdf0e757"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Metal_Seamed_Roof/Metal_Seamed_Roof_BaseColor.png",
+      "bytes": 382813,
+      "sha256": "006360d93587cc9e7ef7aff32e7198a6e1068748d89db82827ad7a50be58d67c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Metal_Seamed_Roof/Metal_Seamed_Roof_Normal.png",
+      "bytes": 3328539,
+      "sha256": "019899dd422ab92217e72e227cb9ba800912f7615493504e858dcc3ad9088aa9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Metal_Seamed_Roof/Metal_Seamed_Roof_ORM.png",
+      "bytes": 1942288,
+      "sha256": "597eda93b38adf8484598752e60caa3b7f142a63090ab0c4e6e12b91a80f00d4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Metal_Seamed_Roof.mdl",
+      "bytes": 1588,
+      "sha256": "5919cffe607dab61cc2c300047da38386a688b25e783c75f7cc4c27f49feef7c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Blued/Steel_Blued_BaseColor.png",
+      "bytes": 280172,
+      "sha256": "cb37daa9ab62ac1760cf1902fd6460748e78297abe4937ff4e154cd38d741c52"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Blued/Steel_Blued_N.png",
+      "bytes": 2429152,
+      "sha256": "1ab70f104f45cedce6a7b8a059b3b0882fbdc048cc58701bbf29567327995133"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Blued/Steel_Blued_ORM.png",
+      "bytes": 1981178,
+      "sha256": "b244ad8e7c4f32c660cf24da594901e0b14417b64c34350e7e114f127155dec2"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Blued.mdl",
+      "bytes": 1992,
+      "sha256": "d47743fd7ed49cd8792e6b8c6c2a0a892bd1a14877f3f1f5802aa976d0c70068"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon/Steel_Carbon_BaseColor.png",
+      "bytes": 9678535,
+      "sha256": "7dd0ba5292a79e9a993279c4db81525446a4313562c32478d14a99d0dfacc55a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon/Steel_Carbon_BaseColor_1.png",
+      "bytes": 9678535,
+      "sha256": "7dd0ba5292a79e9a993279c4db81525446a4313562c32478d14a99d0dfacc55a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon/Steel_Carbon_N.png",
+      "bytes": 18832058,
+      "sha256": "3d1b8196b05715fcac3def696a4a2ccd1db704da1a68e09e3eff863afa09ae9a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon/Steel_Carbon_N_1.png",
+      "bytes": 18832058,
+      "sha256": "3d1b8196b05715fcac3def696a4a2ccd1db704da1a68e09e3eff863afa09ae9a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon/Steel_Carbon_ORM.png",
+      "bytes": 4258824,
+      "sha256": "b6241ed061f4ff7a6bfde431a157e352e1e7083c862d9ac29a75a59887979018"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon/Steel_Carbon_ORM_1.png",
+      "bytes": 4258824,
+      "sha256": "b6241ed061f4ff7a6bfde431a157e352e1e7083c862d9ac29a75a59887979018"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon.mdl",
+      "bytes": 1752,
+      "sha256": "deeaf93894d966542f9ff79753d2fcd718f2c70551f67f7ea531e4f9c5677efc"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Carbon_1.mdl",
+      "bytes": 1746,
+      "sha256": "4573dda12686c25988392cee850701f6e7a5a2d352d91614456ecb5150610044"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Cast/Steel_Cast_BaseColor.png",
+      "bytes": 20161303,
+      "sha256": "54b3f891982799ad54bdcb70b0909931092cf2a1ee6e004ae42d0811b7ba9873"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Cast/Steel_Cast_N.png",
+      "bytes": 26819193,
+      "sha256": "098895d4a7639dd8f22592e40c049254224bcb7c66567b601892d9a3f3f9426a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Cast/Steel_Cast_ORM.png",
+      "bytes": 4235243,
+      "sha256": "c80dd95692eb529a888a2fe5fe93617e50ebf1c098514cabfe8484b0e5dee5f4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Cast.mdl",
+      "bytes": 1732,
+      "sha256": "4e1d4670f8c12d5587ef931e704e83694e0c203fe8f5ba7cb97d9b75c416a9eb"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless/Steel_Stainless_BaseColor.png",
+      "bytes": 16902,
+      "sha256": "3f8b3b576ce734630625a64faf6266faf411714a59c42c7af395dc0826e52151"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless/Steel_Stainless_BaseColor_1.png",
+      "bytes": 16902,
+      "sha256": "3f8b3b576ce734630625a64faf6266faf411714a59c42c7af395dc0826e52151"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless/Steel_Stainless_N.png",
+      "bytes": 2272406,
+      "sha256": "8221595d4a575d1e95f059288ce11f1bd0bc7c107ad77bbe482ae7c717816c65"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless/Steel_Stainless_N_1.png",
+      "bytes": 2272406,
+      "sha256": "8221595d4a575d1e95f059288ce11f1bd0bc7c107ad77bbe482ae7c717816c65"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless/Steel_Stainless_ORM.png",
+      "bytes": 779615,
+      "sha256": "a300aae59deb440b90e73f4ab9e6f0fc2da41ba405442ff988e681df921f2a4e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless/Steel_Stainless_ORM_1.png",
+      "bytes": 779615,
+      "sha256": "a300aae59deb440b90e73f4ab9e6f0fc2da41ba405442ff988e681df921f2a4e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless.mdl",
+      "bytes": 2025,
+      "sha256": "95894655f553c1975b54456c0c629421803fe21e62895e2aba609176f40e45ab"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Metals/Steel_Stainless_1.mdl",
+      "bytes": 2019,
+      "sha256": "976b0375c79f2c7262d0e4af785db67735260ff457319c62d50427c957cbf2a8"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Miscellaneous/Paint_Satin/Paint_Satin_Finish_BaseColor.png",
+      "bytes": 16903,
+      "sha256": "55aa783346d66cea115c505166694afe60a65782e4690de705bad848ce754b66"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Miscellaneous/Paint_Satin/Paint_Satin_Finish_N.png",
+      "bytes": 5545003,
+      "sha256": "4dd87470d9549a18c3b41201d08308df9bd41de0571b9b7317e74dac5c9d0c5d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Miscellaneous/Paint_Satin/Paint_Satin_Finish_ORM.png",
+      "bytes": 1574747,
+      "sha256": "8aecdead5d61ab7ba222563e87c52c7710ce35fd25e1895eb6ef46ef3eaf65ed"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Miscellaneous/Paint_Satin.mdl",
+      "bytes": 1629,
+      "sha256": "5ba6aa2a7c4fdd3267905b5d85a1fd398c429fb155ba24251be38bce0fdffa8e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Plastic.mdl",
+      "bytes": 1511,
+      "sha256": "eec05fc1f50a27f5fd3f05ec5464c3ca41537d3c476b4325275e234bb77f4429"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Plastic_1.mdl",
+      "bytes": 1511,
+      "sha256": "eec05fc1f50a27f5fd3f05ec5464c3ca41537d3c476b4325275e234bb77f4429"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Plastic_ABS.mdl",
+      "bytes": 1522,
+      "sha256": "996caa235e62010e15fcf8c820ffdf502a3c276fc416d3f95298e325adf44616"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Plastic_Acrylic_1.mdl",
+      "bytes": 571,
+      "sha256": "7580631ef7e211f31c7fd67083943d20946689453e7a4f0eb5746a1d34abdf5b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Rubber_Smooth/Rubber_Smooth_BaseColor.png",
+      "bytes": 16903,
+      "sha256": "d87ef61bed3172e33d2840405b70da6764a187fa6da446648915fe78e5a4699e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Rubber_Smooth/Rubber_Smooth_Normal.png",
+      "bytes": 4277464,
+      "sha256": "2ca864b6329c0c1685c7cac92058549995c971bde1b06544c954571d22994ab8"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Rubber_Smooth/Rubber_Smooth_ORM.png",
+      "bytes": 1569979,
+      "sha256": "ea236680ed062715bea6365f1ebca80d44766cd2b6d3fb1ba17aa2669384aab4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Rubber_Smooth.mdl",
+      "bytes": 1558,
+      "sha256": "d5c2e1cae0ea1aea77d47e0b9f41c0e3e857a76537c5f6469dd597f1234f3d2b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Rubber_Textured/Rubber_Textured_BaseColor.png",
+      "bytes": 16903,
+      "sha256": "25e715d7c65ba33a1c920d0e5c8ba119f3737c0dec183bc1cbec67b25fa19054"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Rubber_Textured/Rubber_Textured_Normal.png",
+      "bytes": 5161841,
+      "sha256": "c9897ec963a360ff3c62b15013c88a8f7aa7534bbfea92251bf80e2a0933ff6a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Rubber_Textured/Rubber_Textured_ORM.png",
+      "bytes": 1155371,
+      "sha256": "e6368c9d99e2759151dc6205f107e6a87516884ab084ed3264efe4f63536b199"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Rubber_Textured.mdl",
+      "bytes": 1572,
+      "sha256": "c9bcb7378897899c987f1629470929bf2e857196d3342c773f45c689f6e935d7"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Veneer_OU_Walnut/Veneer_OU_Walnut_BaseColor.png",
+      "bytes": 3143008,
+      "sha256": "7c4ecbbf4415e12966e6c4da4894cb27322ad4ac00ab9d619252934c9061b093"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Veneer_OU_Walnut/Veneer_OU_Walnut_Normal.png",
+      "bytes": 8489522,
+      "sha256": "9084debed6d5508235adb127d04a82e754cfaa116f8320e9cf54a88ecc77bf2e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Veneer_Z5_Maple.mdl",
+      "bytes": 1508,
+      "sha256": "b4ab001b37035b7c4fcf592a6c6f12bcecd45d04555ddecde8a1833c42416391"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Plastics/Vinyl.mdl",
+      "bytes": 1477,
+      "sha256": "4ecae062007cfa4d4ebccdbf168b4f0929305d5c095bbd18c9cf2ddc8ac1ef30"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Stone/Porcelain_Smooth/Porcelain_Smooth_BaseColor.png",
+      "bytes": 154429,
+      "sha256": "b436030591d20376a09ddbabbd07490491bd2aff87dc4763cb8abdc9f328c874"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Stone/Porcelain_Smooth/Porcelain_Smooth_N.png",
+      "bytes": 6680282,
+      "sha256": "a00eae9123e1e9c6634b8f6edbdc03858f9cdecd89b37a83fd4e26e526fbbf57"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Stone/Porcelain_Smooth/Porcelain_Smooth_ORM.png",
+      "bytes": 1845944,
+      "sha256": "3aa0103d8244cfae806347a69158953c51532b3d396b64b4a2d398bb7ad27de0"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Stone/Porcelain_Smooth.mdl",
+      "bytes": 2026,
+      "sha256": "0c1e11f2cdbe6730f27d202e2f69d0c1db89da5b2c6c6cd17dca7f18f00620ab"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Templates/GlassUtils.mdl",
+      "bytes": 2417,
+      "sha256": "18baaa8cd508d85075148b80097c56c4924212928bb196f2d9ee2352d5c618a4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Templates/GlassWithVolume.mdl",
+      "bytes": 4906,
+      "sha256": "54f4f99e1bd8c6cde022dd246a954b9efe9b251a169854f49f582501a9bdf089"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Gypsum/Gypsum_BaseColor_1.png",
+      "bytes": 4956768,
+      "sha256": "363e2d0eaafe181955bd31a3a4f6727376921d48567aa36ad96d9d30fdd91d43"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Gypsum/Gypsum_N_1.png",
+      "bytes": 8147428,
+      "sha256": "eb76883e0136b744746aa8a1f3bb0d755ff833a079e62c1f2d016ff610194762"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Gypsum/Gypsum_ORM_1.png",
+      "bytes": 5104444,
+      "sha256": "48fbab6af4a8cbfe9a27e0536b8ef9fa773745e02a0839be64e0292d066b7041"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Gypsum_1.mdl",
+      "bytes": 1580,
+      "sha256": "ecdb299ddb4c86fd290e83d5aa5bd16836de4c6c427046b58677a13a60074bd3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster/Plaster_BaseColor.png",
+      "bytes": 16903,
+      "sha256": "6495a9da707288ad3a1ec6ebb0ab896c4b3f8494b526a4066352321451a84a19"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster/Plaster_BaseColor_1.png",
+      "bytes": 16903,
+      "sha256": "6495a9da707288ad3a1ec6ebb0ab896c4b3f8494b526a4066352321451a84a19"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster/Plaster_N.png",
+      "bytes": 6663591,
+      "sha256": "cf9e55bf593fdbb2407c0f1756ab639a31b2df28d9ef60385c088f0ee22355e9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster/Plaster_N_1.png",
+      "bytes": 6663591,
+      "sha256": "cf9e55bf593fdbb2407c0f1756ab639a31b2df28d9ef60385c088f0ee22355e9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster/Plaster_ORM.png",
+      "bytes": 4196284,
+      "sha256": "d25854c858fa9e255f824b1880bdc66f0ac9fab31f7dd74d4d062dd4573c6522"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster/Plaster_ORM_1.png",
+      "bytes": 4196284,
+      "sha256": "d25854c858fa9e255f824b1880bdc66f0ac9fab31f7dd74d4d062dd4573c6522"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster.mdl",
+      "bytes": 1963,
+      "sha256": "23bee7c3fdd4e5867505528eed0a83e6d84864ae14f654ed229ca7664270865c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wall_Board/Plaster_1.mdl",
+      "bytes": 1969,
+      "sha256": "e0b0e09826db80432beab57923fb34e3e7b6dad28c2b448b0d60ee5548dd8a49"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Ash/Ash_BaseColor.png",
+      "bytes": 6691777,
+      "sha256": "e12d4e9b5e39987673d26f84726c796fba7bddea8a14a4a8514381878e6aeddd"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Ash/Ash_Normal.png",
+      "bytes": 5932653,
+      "sha256": "44b5b518bdb52957ecd8159ee7c2f59ad0ceca5fd4799bab8122c97335f0547c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Ash/Ash_ORM.png",
+      "bytes": 1129426,
+      "sha256": "549dadc96c0e9cdfa05ab487552acd600d03a6ba0688864171eeba27e6a1183d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Ash.mdl",
+      "bytes": 1488,
+      "sha256": "08092f21c5cba9672483c5ad39fd02c0932e38390fe159a0ca25608a4406d0c8"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Bamboo/Bamboo_BaseColor.png",
+      "bytes": 1688699,
+      "sha256": "1b99d2989052da2848b8ef2dd05a50854c938e62e5c666bc0510626d8e5fda1c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Bamboo/Bamboo_N.png",
+      "bytes": 1486668,
+      "sha256": "ae7246dd52d4aae04bbc2d5946123a40b13ba6c506268c70faee2c58db8d80f3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Bamboo/Bamboo_ORM.png",
+      "bytes": 550125,
+      "sha256": "fa9b60387e8b0b965b541c9b1f3bd48b90b801d0cbaef7ebacb8d5c892e5099c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Bamboo.mdl",
+      "bytes": 1955,
+      "sha256": "43127eafd16af0945301440621d0224980c4d6aca43d566110b40d8efbd1edd5"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Birch_Planks/Birch_Planks_BaseColor.png",
+      "bytes": 3754657,
+      "sha256": "0255bee69192a9189d1f9e4e30b2ccbe589116a45165a986aac7afb9bd88e2c9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Birch_Planks/Birch_Planks_N.png",
+      "bytes": 3819761,
+      "sha256": "1c89ffd81bf9150a212c81c47c304a55c62ccbba538cbfd58523bafc47e9c7ee"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Birch_Planks/Birch_Planks_ORM.png",
+      "bytes": 1203358,
+      "sha256": "85fc1607c460b04137bde3f55ab35cdbed171e5c68f75b24c435e3c9a197c6c5"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Birch_Planks.mdl",
+      "bytes": 1997,
+      "sha256": "478cc071645cf5932233f1f7a88cfcddbc396c7f0b58af2a1a0b3edd80ba4eab"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Cherry/Cherry_BaseColor.png",
+      "bytes": 2903459,
+      "sha256": "4ef9a62a7fb39b49e1eec6acdc3e5e1ed2488411f878a1c88de41c39d11488c1"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Cherry/Cherry_N.png",
+      "bytes": 3170706,
+      "sha256": "9eff5e4b33a90b3d1948987533791d19e79168a9d84e2dd64900fd50c41a13eb"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Cherry/Cherry_ORM.png",
+      "bytes": 1636382,
+      "sha256": "d6714b33ee71b3d8fe2c39eb5eff3ddaa7684be42056fa6e2fda0000d243034e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Cherry.mdl",
+      "bytes": 1955,
+      "sha256": "3077c67787eda8cb8f7377fb7aedc4c71e535e7f0df8e307db52d9179a3667cf"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Oak/Oak_BaseColor.png",
+      "bytes": 5383545,
+      "sha256": "58648d35e3b8a9d953948ce0394b56aa95184e1f88b5abab139e7a32a2b44043"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Oak/Oak_N.png",
+      "bytes": 2939899,
+      "sha256": "4538148c60da7c94d88d656bbc62106a16bd652052bc196cab56ee6d9e01c249"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Oak/Oak_ORM.png",
+      "bytes": 1171706,
+      "sha256": "754ccca3176ccb3bbeb648af574c57eb5be0b876c579faaf45f9e8a09f71ec39"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Oak.mdl",
+      "bytes": 1935,
+      "sha256": "6499881c02324f599f36119d152d2b6def1ddf1d8de775ef6149118b5a84a322"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Timber/Timber_BaseColor.png",
+      "bytes": 2891549,
+      "sha256": "c430b009494b81365fe6935529b7db09fba2a92ab6674ef91b0f42af5cb8e712"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Timber/Timber_Normal.png",
+      "bytes": 7681085,
+      "sha256": "8ef962661cf514e49ed274600a328b028b69c66cf57929fca4afdea8dc1c3a0a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Timber/Timber_ORM.png",
+      "bytes": 923119,
+      "sha256": "9cbcad5dda2d5ca6ac8e3d642f94657aa60daa13cfcd7a5ac915ae077ebb50cf"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3-us-west-2.amazonaws.com/Materials/Base/Wood/Timber.mdl",
+      "bytes": 1830,
+      "sha256": "30ace8165c601c1adf7ebf85fa6cc20ef037189291638d0eaec928345b58f0c9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Automotive/Metal/Metal_Black_Paint.mdl",
+      "bytes": 8146,
+      "sha256": "f2a779a4ea7506cf1d33b984e368d91f734d843d720ede4191138aff2f87ac4c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Automotive/Surfacing/ov_metal_a_01/ov_metal_a_01_normal.png",
+      "bytes": 22463078,
+      "sha256": "d7da54a8d75accbf1d08b922a13a5b693afd2b35776aea4f871dc871d5a31629"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Automotive/Surfacing/ov_metal_a_01/ov_metal_a_01_orm.png",
+      "bytes": 11787191,
+      "sha256": "59302b2d5f64882f7a62c7a88b78de62b39588f44fc3f26f94db2723ba415653"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Automotive/Templates/OmniUber_Automotive.mdl",
+      "bytes": 104897,
+      "sha256": "25a7e9490efd3f7bece684284be9b2724f4392dca97de6db7270d32bb76d45de"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_BaseColor.png",
+      "bytes": 16903,
+      "sha256": "d1d042502d7d94bca13cee10c63ab5b3801fb0a46e26d79169e13f5b9c7b5a31"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_Normal.png",
+      "bytes": 3321558,
+      "sha256": "6dc1cb1b23a9abd766188a85ccbad1a2639d0a9a334f284e359c6c5d4438608e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized/Aluminum_Anodized_ORM.png",
+      "bytes": 637843,
+      "sha256": "768f2dbb4f702a9624b912b431efd1a6a8e0ff3e93744cf54f3866ef8f7986e9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Metals/Aluminum_Anodized_Black.mdl",
+      "bytes": 1600,
+      "sha256": "55cd651d91a10006b85e076f11910e6a61c76e069b7da1ad057e3939ac2546e0"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Oak/Oak_BaseColor.png",
+      "bytes": 5383545,
+      "sha256": "58648d35e3b8a9d953948ce0394b56aa95184e1f88b5abab139e7a32a2b44043"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Oak/Oak_N.png",
+      "bytes": 2939899,
+      "sha256": "4538148c60da7c94d88d656bbc62106a16bd652052bc196cab56ee6d9e01c249"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Oak/Oak_ORM.png",
+      "bytes": 1171706,
+      "sha256": "754ccca3176ccb3bbeb648af574c57eb5be0b876c579faaf45f9e8a09f71ec39"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/Base/Wood/Oak.mdl",
+      "bytes": 1935,
+      "sha256": "6499881c02324f599f36119d152d2b6def1ddf1d8de775ef6149118b5a84a322"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Concrete/Concrete_Polished.mdl",
+      "bytes": 22113,
+      "sha256": "34fb901268df07dd4af4e7a6228a537192358d12c4bd9ab731f5ea8c771576c4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Concrete/Concrete_Rough.mdl",
+      "bytes": 35373,
+      "sha256": "8f9fb11c95cbfe91c92d5cea68de87006f15a2011d530b6ec3171d0d3cc7d44b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Concrete/textures/concrete_rough_ORM.jpg",
+      "bytes": 2086875,
+      "sha256": "216035e8875e2831b210929cab158d8ada4b38742c93132618713a679afd77b3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Concrete/textures/concrete_rough_diff.jpg",
+      "bytes": 1441663,
+      "sha256": "8dfbe927ee90a92fb04f7e9a8b15039f7100caf52ff37324691e2a0150f1018a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Concrete/textures/concrete_rough_norm.jpg",
+      "bytes": 1381045,
+      "sha256": "2ed5304c68d7cd73a9c00d0feb705245f486846592fc8482b69989934aca555f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Concrete/textures/conrete_polished_ORM.jpg",
+      "bytes": 1516401,
+      "sha256": "952e05e330fe65a0f236dda3943f7a843ab2b62dc317819ba1e37143514991b1"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Concrete/textures/conrete_polished_diff.jpg",
+      "bytes": 380583,
+      "sha256": "20dabdf6ab6ed176212e9afabc01a1db84714113965a3de2cfab515eccc83807"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Concrete/textures/conrete_polished_norm.jpg",
+      "bytes": 518141,
+      "sha256": "f844532144cce35a82372b19b55f80569948c718763837b0d91c790a733fea2d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Concrete/textures/moss_diff.jpg",
+      "bytes": 990554,
+      "sha256": "5f01800b456e31f6575e429a8eb9751d7a71fa0ee61d3e16effa9d7709babaf8"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Concrete/textures/moss_norm.jpg",
+      "bytes": 1231076,
+      "sha256": "5b73ab37b3c9ce9358d9442a8226185bffa65181695582f47c617ededcc6d725"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/Cashmere_Wool_Suiting.mdl",
+      "bytes": 55370,
+      "sha256": "b420e3efea3df0506f4b0333beb9cb6d3cbca44212b956ed98521ca536f25656"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/cashmere_wool_suiting_R_diff.jpg",
+      "bytes": 1060148,
+      "sha256": "732b2873e3370929bbdc205b798b9689e4e9a29ab9058c0facaf1242f75ee675"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/cashmere_wool_suiting_norm.jpg",
+      "bytes": 1484447,
+      "sha256": "b91e50065a847c865102e3e369dcdc859adb20896a070a333d49430d0f65b7fb"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/fibers.jpg",
+      "bytes": 519681,
+      "sha256": "8fd0dee8b4183adee7720ea33bdf54d7c249c554619a9d97575fc1cf3aac6d66"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Fabric/textures/french_terry_fabric_warp.png",
+      "bytes": 197484,
+      "sha256": "6dcde159c06cea395ece9a519c1cff04235f5b0295518e1a7bac062413c0e2f7"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/ABS_Hard_Leather.mdl",
+      "bytes": 34999,
+      "sha256": "772e56af8fd3af820502c6837786061ed99c3caf4a1af836b3862891cc1e5c8c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/ABS_Woven_Leather.mdl",
+      "bytes": 33189,
+      "sha256": "1c522e1d93b983d333f612f3c0f2d28caa7af3b2e19b58beb0c81c86686d6eef"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/Aniline_Leather.mdl",
+      "bytes": 52930,
+      "sha256": "3e556c5a3b163bd9f8cdf3503108d686df2312bc26e54b2b9f0864fb015c46fb"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_hard_leather_norm.jpg",
+      "bytes": 2190580,
+      "sha256": "0226db2caf0ad7ec81bacce3c2493cde8a47b5a82f9164422634939fbb9a65c7"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/abs_woven_leather_norm.jpg",
+      "bytes": 1199314,
+      "sha256": "f08376ece560150dddff32f134bb8de2709e6ee9f7d5161bf401ee9e05e24390"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/aniline_back_albedo.jpg",
+      "bytes": 2042376,
+      "sha256": "637c0cedee2deb3f76ea7e913547541dce9bbdaf2e87e7226655f98b30076ead"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/aniline_back_normal.jpg",
+      "bytes": 963050,
+      "sha256": "b553f0fc0d003c5b6454910f1009c56599277972568266319f8254ad97c967ec"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/aniline_front_albedo.jpg",
+      "bytes": 1369958,
+      "sha256": "7813db67ac46d136a4f8519de733719dccd9669e842360c14cb013daac84b3e7"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Leather/textures/aniline_front_normal.jpg",
+      "bytes": 2478492,
+      "sha256": "ba4d68f18afb836f4d610afd87e11b3c916a9b1dc6ffb8a1adf9c6a4fddd6bdc"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/Blued_Steel_Cold.mdl",
+      "bytes": 26046,
+      "sha256": "96e22f1c52f191e79fdf04b6a04c06bcfdd04abc1e40e95ac14ec788ba079b01"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/Metal_Cast.mdl",
+      "bytes": 48258,
+      "sha256": "dce13e2dd4409ff46eacf4954ced174f1ecc59f96cb8467167b7f3cedeac8d5e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/textures/blued_steel_diff.jpg",
+      "bytes": 2510845,
+      "sha256": "c9cd81db90988be5fbc6597983490f5abb164fc3c65e7da3a721a72b8dcc4a91"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/textures/blued_steel_norm.jpg",
+      "bytes": 538520,
+      "sha256": "ada75e2e667c27ae7645d42c77b7771a3e6904f20ce94bc691925b9c342109df"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Metal/textures/cast_metal_norm.jpg",
+      "bytes": 2449107,
+      "sha256": "94163d8d256f3df1bd1452e7ec18ae3bd8e8008cf67bb8c9a85a767cbfc158cf"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Wood/Laminate_Oak.mdl",
+      "bytes": 22503,
+      "sha256": "252ee76c359f14f15aec1d3128940c0c3559df23726f6d4a7f1c51e3444efe6d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Wood/textures/laminate_oak_diffuse.jpg",
+      "bytes": 2467433,
+      "sha256": "90ef8ef45d7cb0186b25c35fb5653b06946ffb73bc808a4160eb1e6a53bdedfa"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/2023_1/vMaterials_2/Wood/textures/laminate_oak_normal.jpg",
+      "bytes": 5397470,
+      "sha256": "5fadceb9068374fbab649525991a091e37ac6c02636214480b0e60addd1f6531"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Carpet/Carpet_Woven.mdl",
+      "bytes": 19522,
+      "sha256": "39a8b667d0861282a4f9515611903b5442d70668cd2c3708555ad3592e82fdbb"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Carpet/textures/carpet_rough_woven_diff.jpg",
+      "bytes": 2250464,
+      "sha256": "5735c46226b35e5f0aeed778c0c483f5b1e8899d7e4f2b31e168611e15c4339f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Carpet/textures/carpet_rough_woven_norm.jpg",
+      "bytes": 4368264,
+      "sha256": "11b49c509ed177d101e2a50cfc677578464d4818dc6b2745e01bb881fc50adb6"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Composite/Carbon_Fiber.mdl",
+      "bytes": 45344,
+      "sha256": "93afaf9588aa942876fcf70d6f783bea19d2c483d9d67614f84b5d613402136f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Composite/textures/carbon_fiber_fibers_norm.jpg",
+      "bytes": 2873884,
+      "sha256": "f51228a9279f1f33e2c9b3fe170f64dcb00a791c56b6381299a1e7b4cca97318"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Composite/textures/carbon_fiber_weaving_norm.png",
+      "bytes": 59261,
+      "sha256": "1455c730d548d17f286dcce4004028cdc2e55d7603f45e0dffa7c6d95a734604"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Composite/textures/generic_surface_rough.jpg",
+      "bytes": 2071242,
+      "sha256": "e7e5f3e086d87ccbff43a2f2b5c33e8d6aace3b594d43ab00d6303a16ba8af64"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Composite/textures/surface_damages_norm.jpg",
+      "bytes": 1307147,
+      "sha256": "21c306362e3ae2305fa96315288406044797634739e39e861a7c65fea26580ad"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Aluminum_Brushed.mdl",
+      "bytes": 18536,
+      "sha256": "bef97935ffe58be4f63900d74fc51498b8481437dc187d493294a7355a5e8008"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Aluminum_Foil.mdl",
+      "bytes": 28955,
+      "sha256": "869de2291433279a4d00ff0fa05bfcd88e7f5e5627768c15b76d20d25c6a177a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Aluminum_Sheet.mdl",
+      "bytes": 61632,
+      "sha256": "5147bb605f6f180553861685e48353cef43e0b92e21edf979052ca83b6889a8e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Chromium_Foil.mdl",
+      "bytes": 28861,
+      "sha256": "648168c9f0a8cf4f463d19fa52e69474bae54e4e02d7ea0df66d5e093877bbd3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Chromium_Scratched.mdl",
+      "bytes": 48272,
+      "sha256": "84ea3f40bbcf8f41f33255c00d52a81fbe5090815125b97406d89e41ad565354"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Copper_Antique_Brushed_Patinated.mdl",
+      "bytes": 21313,
+      "sha256": "4f22f6aca9b150ffd71f47c950a3b6e74300482e708d62aeb76d7dc91efb83b5"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Iron_Scratched.mdl",
+      "bytes": 48271,
+      "sha256": "224d7c1b8e656caed00226bd0b191afea0f21bcb8ae45817c3654125d6ae76cd"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Platinum_Scratched.mdl",
+      "bytes": 48327,
+      "sha256": "9e6369bfcad03a50ed56387b161721409000bd20b6e717fc54e8beefa2bca2f2"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Silver_Scratched.mdl",
+      "bytes": 48426,
+      "sha256": "66524d0eb551d8edb40ca313324d8d1ed24fbd5115e3db50880a7ea17fb5a307"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Silver_Sheet.mdl",
+      "bytes": 60814,
+      "sha256": "43851979f757bb8dbfe580e527b043dd5641f00efaeeba7c91bc9362d3ae0994"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Titanium_Scratched.mdl",
+      "bytes": 48328,
+      "sha256": "ff7bd77ed9cc6e6b0bff8802fab2f1530815e23da1f50ab4a3f02813cace26d6"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/Tungsten_Scratched.mdl",
+      "bytes": 48327,
+      "sha256": "d6ce334daebd36bfb74a60015cdffcbdfe03e5336a47f9124a980598308cbd47"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/atlas_02_norm_dist.png",
+      "bytes": 1576300,
+      "sha256": "545d952caf139061c8f7c9474fbadd59cc2dedc5616386bbcb2ac71c88add6f0"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/brushed_antique_copper_diff.jpg",
+      "bytes": 1418954,
+      "sha256": "035ec48340ce3fd8ae874e27a78b3e4d4fd7557548329b7cb95f71dc1ce46042"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/brushed_antique_copper_norm.jpg",
+      "bytes": 824545,
+      "sha256": "5eb975e5ce99488cc1c08b191c3bcfdd628ec515f92e076d566f93eb380e8498"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/brushed_antique_copper_ref.jpg",
+      "bytes": 719606,
+      "sha256": "3ffc3e3481ddca4b928bb72e46073ad420c9621dfe1559239d4dc1828dc0e061"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/brushed_antique_copper_rough.jpg",
+      "bytes": 2729601,
+      "sha256": "cecc34507ac09074a99b7c66f577d2265bb742481b51b7aad74d8d2e3cf8c7d9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/brushed_antique_copper_smudge_map.jpg",
+      "bytes": 3096394,
+      "sha256": "113cb9e348a5561efaf6c5a672dbdf0a370be99cf20b7543dc51eaabef5af83e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/brushed_metal_linear_norm.jpg",
+      "bytes": 5404672,
+      "sha256": "b2726352916df008ee9dafb1e19f3dc6f0280e3b59962d318ca3f5ef53155086"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/copper_patina_diff.jpg",
+      "bytes": 2505139,
+      "sha256": "09d9f7cecde28d66b5832ccd50f79c78d986acf1a3fcf8d2bc53e74d4e9a3aef"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/copper_patina_norm.jpg",
+      "bytes": 5627717,
+      "sha256": "0c59bcb37b4618f759dfe0e61b75a976555a3b23e626f6112a39319a5c419c48"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/foil_crumpled_R_rough1_G_rough2_G_ao.jpg",
+      "bytes": 2459224,
+      "sha256": "55a628de7403efe305b5e70acbf5eaf12366aad291afecf2fc54dccff59682a6"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/foil_crumpled_R_smudge_G_splotch.jpg",
+      "bytes": 6000999,
+      "sha256": "34dd8ce54677e42047cff5291f95c32ae926954f519e69d74a27dff5f4d7ab0d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/foil_crumpled_norm.jpg",
+      "bytes": 1257236,
+      "sha256": "0db4ee0a2c393c08c08a7703e7cff91e0fdb337e283fef4c4370d70c3528a226"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/metal_scratched_scratch_norm.jpg",
+      "bytes": 3254868,
+      "sha256": "fef50be8c23dabfbd7a799a3434ba6c39122d058140dd9c11cb0c3da1da5b537"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/sheet_metal_R_rough_G_ao_B_streaks.jpg",
+      "bytes": 4451500,
+      "sha256": "9bcc1276b9bf79abb650315d368f57d20a4f7929ca207b4c3fa5fed8b9eb6306"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/sheet_metal_multi_rough.jpg",
+      "bytes": 7088427,
+      "sha256": "0e2309dba2da6ba419f804936bf213270cb62b98a589b9c38bd99ce6bcad861f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Metal/textures/sheet_metal_norm.jpg",
+      "bytes": 3633863,
+      "sha256": "3145f26a544857dd0163129591cb37d6c7d7934dc59aaa3611030f9f44ecd613"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Paint/Carpaint/Carpaint_Metallic.mdl",
+      "bytes": 59254,
+      "sha256": "01ce60d2980028ce266b5d749b39c1bcbb5838ee0c8582bade1fd371e52d2e45"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Paint/Carpaint/textures/smudges_scratches_A_rough.jpg",
+      "bytes": 2669524,
+      "sha256": "00c226b573d873f241013ce76f2bb1fafe38e544719faae4b7c3494784563566"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Paint/Chalk_Paint.mdl",
+      "bytes": 32028,
+      "sha256": "59c58beecd8276ced8c614abbb9a4b2806b713b5c82951193a41782f8477d249"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Paint/Chalk_Paint_Pebbles.mdl",
+      "bytes": 33651,
+      "sha256": "f89012316094e22576f8c7a004efe8c9fd4dc0fabeaac6f211b7fbff5d1754ed"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Paint/Paint_Eggshell.mdl",
+      "bytes": 49992,
+      "sha256": "2fa7bc835cd597cda8a9b17b8b232bf7b4fcc46b954eea2bbe4e9461ed3dcd48"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Paint/textures/Chalk_Paint_Pebbles_norm.jpg",
+      "bytes": 2527304,
+      "sha256": "6e5f809029a4f0163d35f754da0f61bc67ad208f4fa37ba3aedbd53fcc50541a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Paint/textures/Chalk_Paint_Strokes_norm.jpg",
+      "bytes": 4648796,
+      "sha256": "f3b6a26e49d990ebbda92ecb5af7ee2a3dff66d30d227f670c5b7d28513e64fe"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Plastic/Plastic_Thick_Translucent.mdl",
+      "bytes": 30015,
+      "sha256": "e6fc7403fce0da94912d3aa2ced0638a2aafb4c9cd504a745743f4273b7dc333"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Plastic/Polycarbonate_Opaque.mdl",
+      "bytes": 38998,
+      "sha256": "632b8818da70f8271c4b4436b3555daf02a7287cf70bcdc8c1b234769f7e3dc6"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Plastic/Polyethylene_Clear.mdl",
+      "bytes": 19503,
+      "sha256": "94f268476d989243132e71ec3dee1eea113b54700fa7271d7095e443453ea7a9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Plastic/Polyethylene_Cloudy.mdl",
+      "bytes": 25863,
+      "sha256": "2a0394a4af7a398d8566dff7ac560e1d5bc92ea0f120c3fcaab7c1ed90e446cd"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Plastic/Polyethylene_Opaque.mdl",
+      "bytes": 41237,
+      "sha256": "81cb444cac17ba8b41ec353a4672ba2f889120615e26e37b53416e43673284b3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Plastic/Polypropylene_Cloudy.mdl",
+      "bytes": 25862,
+      "sha256": "9daa09e0d8d4a0a336a125ae3f13786cbde8ff4e9f50a6543ec1a4895cf6984e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Plastic/textures/plastic_smudges.jpg",
+      "bytes": 4078041,
+      "sha256": "71d0318fab77b465e9b439071c55b9940aa5da133cb00855c29912a6b32d413b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Wood/Laminate_Oak.mdl",
+      "bytes": 22504,
+      "sha256": "1aa582ccfcb4cc4d4ec2549169dc2537999dfe09adaa46c188c18bf646b8b9a2"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Wood/textures/laminate_oak_diffuse.jpg",
+      "bytes": 2467433,
+      "sha256": "90ef8ef45d7cb0186b25c35fb5653b06946ffb73bc808a4160eb1e6a53bdedfa"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Wood/textures/laminate_oak_multi_R_rough_G_aniso.jpg",
+      "bytes": 10480809,
+      "sha256": "e426a7ec2e3cca9d19d6703618b015896f9008f94f6baf0612cca78ae30a2a90"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/omniverse-content-production.s3.us-west-2.amazonaws.com/Materials/vMaterials_2/Wood/textures/laminate_oak_normal.jpg",
+      "bytes": 5397470,
+      "sha256": "5fadceb9068374fbab649525991a091e37ac6c02636214480b0e60addd1f6531"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/red_metal_platform/textures/color_0C0C0C.exr",
+      "bytes": 461,
+      "sha256": "8aa324460736f64a3db42d3dd93cff55d30643002233b45cb5a334bcddc0571e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/red_metal_platform/textures/edited_platform+3d+model_Clone1_basecolor.jpg",
+      "bytes": 1091484,
+      "sha256": "0b14aca329af4c298afa32c3af8f3de175ff1d8e95a1a8e726e75845a7acb4d3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/edited_window.png",
+      "bytes": 587328,
+      "sha256": "32f7d21a2e8f7c1ff1a1e2c56aa8d4717aeea5579f585550a88301411560d052"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/edited_window2.png",
+      "bytes": 541940,
+      "sha256": "8a0e5bbf20e87251f4692d54bd5af3343b9160068aac09c0bb265c2c039fd2ac"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/gray_couch_tripo_part_0_basecolor.jpg",
+      "bytes": 1142884,
+      "sha256": "277c833e0d27a53ed28fbcaf08023731fe7982889ff4cc233224ecbd50acb95c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/gray_couch_tripo_part_3_basecolor.jpg",
+      "bytes": 18279,
+      "sha256": "84c0be70388347c58da634ce287e7d2409fabd05832034e5a8baa71f9fee8886"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_0_basecolor.jpg",
+      "bytes": 190368,
+      "sha256": "9beff875e4026a91e3ed561243d959c6f616c21db802f36c98358839cc17da85"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_0_normal.jpg",
+      "bytes": 114299,
+      "sha256": "07d0b40696590132ee36be1969d5e9665af7dd404b7847af3e72ca129d33c8e2"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_0_rm.png",
+      "bytes": 583856,
+      "sha256": "791b0020356c4dda9ba2d861942244f70fdf809bd83a8a529a44c19dd367b802"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_10_basecolor.jpg",
+      "bytes": 3818,
+      "sha256": "a89ddbc916a725879d7508f0bae1088dd083842499913a35299e1859940e20dc"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_10_normal.jpg",
+      "bytes": 2290,
+      "sha256": "902de31d58871e43b494578468e933855fe12e62c5acb6eac0041acfa211fe37"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_10_rm.png",
+      "bytes": 16395,
+      "sha256": "1ece64d3ee72885cfb90d7f7da65bb279e5e01482daba5ff1d0a535d3b0f3670"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_11_basecolor.jpg",
+      "bytes": 13406,
+      "sha256": "7b14ff063581dcd5d58bb4fe7da7966420499900ce1e7ab599bdd36afa6cd81a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_11_normal.jpg",
+      "bytes": 8398,
+      "sha256": "cd2f110b475f39d8065af7078e718b23c366ae6f9ef6829ff18757f639af0ced"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_11_rm.png",
+      "bytes": 36867,
+      "sha256": "35eec9b511e0d421a6452c88543a5e6f7d615e443c364e8687cf60d8d9b3fd12"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_1_basecolor.jpg",
+      "bytes": 63415,
+      "sha256": "502a6f2ce9617482e8468005a5a1b7f07622c5cea97f3c073f040b1053317271"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_1_normal.jpg",
+      "bytes": 39546,
+      "sha256": "8b4e124cb8839277def408608e0b96909bd5d32d37040e2b9a549d220f801103"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_1_rm.png",
+      "bytes": 208547,
+      "sha256": "e95baf06010c88bad8d547912f1a4322b1495f9f98d2c97905335078540ead9f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_2_basecolor.jpg",
+      "bytes": 192462,
+      "sha256": "a83d1d43e78bd14b6c6319e2ee272a8e41a8464c4bd89242ca4d760ed98e3a58"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_2_normal.jpg",
+      "bytes": 80534,
+      "sha256": "d73707df70c998a3495491b65a97da80e59b12a05d8ab96d8ee3ed174a7d2b5d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_2_rm.png",
+      "bytes": 441925,
+      "sha256": "30f3654306c39860a7fbcec4dc8b78d1a0551843ed45d1e265c0e99cd7ea942a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_3_basecolor.jpg",
+      "bytes": 61558,
+      "sha256": "3596107b236794a0177feea047753bfaebf3c24909146f83df7dc184149929d5"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_3_normal.jpg",
+      "bytes": 40114,
+      "sha256": "9874f8541b51c02b90d0dcd40e0c67a1fe582b9150fecf64f40868108ae028d9"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_3_rm.png",
+      "bytes": 196019,
+      "sha256": "f9d258c84c70f962ff37d1f688082948ad07ae17646dd6c41dc5ac4abee33b2f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_4_basecolor.jpg",
+      "bytes": 57567,
+      "sha256": "e56c5d8455de8db2eaf12b4c2b89d037b06b0daffc0fb5606a34a2f43d03a142"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_4_normal.jpg",
+      "bytes": 33702,
+      "sha256": "cb8bd2c99e8d4e5fbad44822397a89ec911ca52b14b2254d78be423040fe88a7"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_4_rm.png",
+      "bytes": 173777,
+      "sha256": "89c278d057be84b2f55e3e25b31c796f6955d5a5615d0b599957f81e0e921226"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_5_basecolor.jpg",
+      "bytes": 70269,
+      "sha256": "f3fd72e1e09ad0644625c9e2fdc053df654e9999c5eef022c2fd9d70319a44d7"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_5_normal.jpg",
+      "bytes": 43536,
+      "sha256": "8fe6e48ecf74ce37e2acf42718ba8be168a6236065194826514c2b77b8a32c8f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_5_rm.png",
+      "bytes": 159305,
+      "sha256": "e00a617dd55778c55d88090b6a398567bc84541cc4a70a8f50ecdc986270ad3d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_6_basecolor.jpg",
+      "bytes": 44208,
+      "sha256": "91c857dec4b6a714bec1e149b4a3d97aad9d0cf4e7895b1b2537622e765a08a3"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_6_normal.jpg",
+      "bytes": 30250,
+      "sha256": "14c31199f784c4338ed931678ab960a4ae4448f12bc405e191317c14c07e8ce4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_6_rm.png",
+      "bytes": 131491,
+      "sha256": "98485449f288abfc9b6517ebce9447d51d8a0e54cfe38309290a433db9d2c18e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_7_basecolor.jpg",
+      "bytes": 41847,
+      "sha256": "7f45ac8ef9bb6a994c8ebee2fddc3b13fe538e3b1515481c1a33688a546fa24c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_7_normal.jpg",
+      "bytes": 31109,
+      "sha256": "bfc0509558e8641d058c333ed782088adb386722532fc0cccc67f5cab26d4e64"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_7_rm.png",
+      "bytes": 115930,
+      "sha256": "3595f3c41cb56be6572988c19445617b9a9dd31995e43212ef569b5de7c6b67d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_8_basecolor.jpg",
+      "bytes": 55710,
+      "sha256": "aa37d422f9a67a5e2f62dcbd6d7a11e07f4b8c59aa67775468a103383f4e3a11"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_8_normal.jpg",
+      "bytes": 25944,
+      "sha256": "5dbb2f157ebee9d1da0ef55e743d20a6d54458dc2f3959f8c8e20a375555f74d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/sofa_tripo_part_8_rm.png",
+      "bytes": 134671,
+      "sha256": "3ec78fa5058191003b0e7356b4f3a8852bf48947391b750cba2c92a2a3169071"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_0_basecolor.jpg",
+      "bytes": 74118,
+      "sha256": "6454dc174c7a6ad74a13aef13de1bda87d4d69fd372780a75c33057709c2bb78"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_0_normal.jpg",
+      "bytes": 75075,
+      "sha256": "9fae0f1c4a8595d7d357ad19dcd67532af71f8754c42ae7f3c2ac540dcd64659"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_0_rm.png",
+      "bytes": 970711,
+      "sha256": "02bc9300691a1e2ae758d3b9058a790447f298e3121801da42b01f3276c9d17f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_10_basecolor.jpg",
+      "bytes": 13846,
+      "sha256": "efd693a44de228e1ae9708faef7a970fddd5b3bdc619f1ddced6da0032a42588"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_10_normal.jpg",
+      "bytes": 4634,
+      "sha256": "4d51ea96c3bfaa4e2289e6bd695bd07a1556596f16950ab2b8bcd82b02eb0bda"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_10_rm.png",
+      "bytes": 65814,
+      "sha256": "3c61e3d19f7b2ebc5e827c446f30094e0177bb6679c907ed16616671b8fd845d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_11_basecolor.jpg",
+      "bytes": 12174,
+      "sha256": "eb6f8d451e0f47b7dede0111cf0088182ec863a2e292d0903e6328fe04fb56df"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_11_normal.jpg",
+      "bytes": 5020,
+      "sha256": "5efb4fc9b198cfd82973bbd22aa3b5454301a336527c617487ba3ae5609ba6b5"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_11_rm.png",
+      "bytes": 79916,
+      "sha256": "3a7ba96cedd47106c0d39b02cd80f49b0bb24314517b62177f33d896350a0fe0"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_12_basecolor.jpg",
+      "bytes": 25385,
+      "sha256": "28ed7360a308c0d69cd15ee6781f1a0e01f5f097159c8414d93f7975104db884"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_12_normal.jpg",
+      "bytes": 7549,
+      "sha256": "5966c4169a980480fc7593a7b4d98c6ee672aaf57ae30f93ee4e4f7c02d7df0a"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_12_rm.png",
+      "bytes": 87613,
+      "sha256": "8a9f563180b64f151e5f9021614e12c7edb8e21ada17f2b6ef8c040899ade417"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_4_basecolor.jpg",
+      "bytes": 23231,
+      "sha256": "1ba2aed323b0ac322f79380535b39bf5630d79e929956acc4fd0648338a7677b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_4_normal.jpg",
+      "bytes": 11367,
+      "sha256": "6c6fd7b310a089935279999b479fd15c47e3d87d4628747cf7e3ab5c1341cf71"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_4_rm.png",
+      "bytes": 83947,
+      "sha256": "9ff9e879d23b728ea85d22e9af452a6ffda2b24547c458b304705b616017b26d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_5_basecolor.jpg",
+      "bytes": 21485,
+      "sha256": "d0d543772a85cb178657a7f35a4644b62ee8fa06cc822e0a31f0d09df7ad26da"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_5_normal.jpg",
+      "bytes": 12100,
+      "sha256": "f6a23ac26a6fbd57674675628aef4bc4101ca8892c4450c42ec0a790d0017c53"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_5_rm.png",
+      "bytes": 81251,
+      "sha256": "19f197186730864ddc84d9923d3b6ec495f4eb5f24747088deb958e856c7029d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_6_basecolor.jpg",
+      "bytes": 21539,
+      "sha256": "015c058e54230954e19256a87a7698d1c3cfa1296db53b374e4530193bdc101d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_6_normal.jpg",
+      "bytes": 10942,
+      "sha256": "25482149e9c74246cfce39aa410044b7f2a844c78bd95b772e5caee0fc18cae0"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_6_rm.png",
+      "bytes": 79856,
+      "sha256": "7409a95035d948ae061ca7b293d3cc8128e892928311e4116d7e9a0005500b6d"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_7_basecolor.jpg",
+      "bytes": 21808,
+      "sha256": "8231f6674bd724ecffecf4071bb240800696e92742152327a45cd5462263ebea"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_7_normal.jpg",
+      "bytes": 9376,
+      "sha256": "e33c11fefb701895534f5cb19d9debfa569bd80dd62611ecaded920608ae6684"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_7_rm.png",
+      "bytes": 84659,
+      "sha256": "20883dcecd41ed24b39b9e35a9fcfb4b1b0c1655bf300228638e23f73e308a82"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_8_basecolor.jpg",
+      "bytes": 64995,
+      "sha256": "ecfa33e038526e0a830e6b145dc990d01fd7523349420debc7a95483b4ff01a2"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_8_normal.jpg",
+      "bytes": 23379,
+      "sha256": "68341e272defc9c5309a579bb4868b51c87cba854e710650198b650c58c0b32c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_8_rm.png",
+      "bytes": 286823,
+      "sha256": "4582d353ad56718a3e714d2029be0e356b2fe2ed4573b522eb69ba409c2375ae"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_9_basecolor.jpg",
+      "bytes": 58795,
+      "sha256": "f7009b5a6477ebd2a0cf8ed9f4140a1ddace1ceaeada2355081a09bcf26b5dd1"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_9_normal.jpg",
+      "bytes": 23052,
+      "sha256": "9ddeff00d62c55e47be7c9b336df366de3655b2ac5b685b043923c101ffbc3a7"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/tool_cabinet_segment_tripo_part_9_rm.png",
+      "bytes": 266769,
+      "sha256": "7f56a3048dae0cb0b743cd740c7da8dfedd6c0ca7b65106e30d78c98e129c03b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_0_basecolor.JPEG",
+      "bytes": 215699,
+      "sha256": "9fd75884840e8ca16dcec3587177eba94015314eb3a80269c4ae2bbc0640c8ea"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_0_metallic.JPEG",
+      "bytes": 109586,
+      "sha256": "97122b149d525ca335607c53338697ac132fd758da57345f8c99e4665eac2080"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_0_normal.JPEG",
+      "bytes": 141713,
+      "sha256": "31f142922e7633a92830916f07c07a49ebbf200704e3186ef6e4639392b31ed4"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_0_roughness.JPEG",
+      "bytes": 110162,
+      "sha256": "5b92fdea3febeedccc7ec407e716dee3b40b2a524e92a458cc223ae05b16ae6c"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_1_basecolor.JPEG",
+      "bytes": 228229,
+      "sha256": "700209a190fa85c8dbf635063519813df6ae9b20b053667ff19dd765a42c5b39"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_1_metallic.JPEG",
+      "bytes": 113375,
+      "sha256": "915595facf99152ede9dab50571a3745b5e391ac4611ec0cd5081ba0d07ad3dc"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_1_normal.JPEG",
+      "bytes": 153658,
+      "sha256": "9d33aa6a1eb0a17cdccf0a8031d739694b3d4f64cdb3b9d53e3c9318e10af57f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_1_roughness.JPEG",
+      "bytes": 123876,
+      "sha256": "a0bb515e0eefb441614c217cc3fe4327e626b93cf62b79215513ec5ab75ce798"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_2_basecolor.JPEG",
+      "bytes": 45051,
+      "sha256": "0c7ab05114ae38def7485b03641d12ed71c705fbe682b482231258cd008356b7"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_2_metallic.JPEG",
+      "bytes": 84003,
+      "sha256": "e74e2983839e978ac327160cf73b80e7222fd1bebbcf39c0edb64ae24649fb29"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_2_normal.JPEG",
+      "bytes": 18548,
+      "sha256": "8674691d55ec673febe4d847286d481ed5ca67ebad7f851dc9077f0eb96ef79b"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_2_roughness.JPEG",
+      "bytes": 67410,
+      "sha256": "5315c7f31706212cac1bcdf1c5fb7732d937df5cded17a01c1655f1a74b70f39"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_3_basecolor.JPEG",
+      "bytes": 69363,
+      "sha256": "62877f53155fd76c1f70e6b0f2fd4dd953b80a52919ee052bc5e8a551ed9c732"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_3_metallic.JPEG",
+      "bytes": 32043,
+      "sha256": "54f6a35a98e01c066f49f2236790a31a2fe23d750441eb28d67e26b06e796020"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_3_normal.JPEG",
+      "bytes": 49876,
+      "sha256": "b2cf8851fbc779917f40e044ec0ff1673a3e9e2044bb558194365904e2fbc40f"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_3_roughness.JPEG",
+      "bytes": 35674,
+      "sha256": "1d324a3732d595a34282966616be6bb32842a6aa19d318e90c92fb45912d2963"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_4_basecolor.JPEG",
+      "bytes": 66438,
+      "sha256": "9ba2c92037e2ea5b4e93795e12fe8037be404fb938379902d866fe0bd44ecd85"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_4_metallic.JPEG",
+      "bytes": 31615,
+      "sha256": "3b9bab0d72f3a85a791e73755115c2f1b415ae97c42683d67e087028728d4713"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_4_normal.JPEG",
+      "bytes": 41253,
+      "sha256": "8f3ccbbcc7ea918429bd84bb2e5436c2ef98bad893c37055e2f75b8670a30d3e"
+    },
+    {
+      "path": "assets/scene/Collected_final_wheeltec_with_scene/updated 3D wheelbase and the scene/IC382_scene_Sep_v3/textures/wooden_stool_3d_model_tripo_part_4_roughness.JPEG",
+      "bytes": 35895,
+      "sha256": "5e73791b701a593063dcaa236427fa523a5fecd508b51d22e4b6657a7088723a"
+    },
+    {
+      "path": "assets/maps/room.pcd",
+      "bytes": 183017078,
+      "sha256": "ad0d9280ca1b7d5dc87a107e6ec9a3c21507abcdfc0a80ed4a0550b221744d57"
+    },
+    {
+      "path": "assets/maps/room.pgm",
+      "bytes": 318799,
+      "sha256": "bd5a0e17d81131e2f86a05d7a034a2982b9c8f4f3740ad5c2249398f795aee75"
+    },
+    {
+      "path": "assets/maps/room.yaml",
+      "bytes": 138,
+      "sha256": "fea09b5ffb11fc192de561fdfeb9f789e3bf8be3c426d06107faab86298ef40f"
+    }
+  ]
+}

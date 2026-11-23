@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "files_checked": 45,
+  "python": 11,
+  "shell": 4,
+  "yaml": 8,
+  "markdown": 7,
+  "preparation_date": "2026-11-24",
+  "asset_files_verified": 516,
+  "parameter_equivalence": true,
+  "configuration_paths_with_spaces": "passed",
+  "missing_asset_rejection": "passed",
+  "shell_path_quoting": "passed",
+  "git_ignore_rules": "passed",
+  "live_simulation_rerun": false,
+  "live_simulation_rerun_reason": "Original Isaac installation path is unavailable in the preparation environment. No simulator or robot-control process was started.",
+  "historical_precision_results_reused_without_retesting": true,
+  "remote_pushed": false,
+  "resource_archive_included": false,
+  "delivery_scope": "Code and configuration only; user-provided local scene and PCD."
+}

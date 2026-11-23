@@ -1,0 +1,557 @@
+#usda 1.0
+(
+    customLayerData = {
+        dictionary cameraSettings = {
+            dictionary Front = {
+                double3 position = (47038.9189342386, -231.90684029446814, 746.9028070959521)
+                double radius = 5737.246484375
+            }
+            dictionary Perspective = {
+                double3 position = (-32.086001967433575, 3.2029654895521085, 6.083249762020444)
+                double3 target = (-29.964077585726436, 3.3550509595231683, 5.670422780065758)
+            }
+            dictionary Right = {
+                double3 position = (-2961.081065761431, -50231.90684029449, 746.9028070959521)
+                double radius = 3576.487890625
+            }
+            dictionary Top = {
+                double3 position = (-3848.2883426806893, 593.1749997586091, 50552.86751814889)
+                double radius = 1331.0287109375
+            }
+            string boundCamera = "/OmniverseKit_Persp"
+        }
+        dictionary omni_layer = {
+            string authoring_layer = "./wheeltec_metric.usda"
+        }
+        dictionary renderSettings = {
+        }
+    }
+    defaultPrim = "World"
+    endTimeCode = 300
+    framesPerSecond = 24
+    metersPerUnit = 1
+    startTimeCode = 0
+    subLayers = [
+        @__BASE_SCENE__@
+    ]
+    timeCodesPerSecond = 24
+    upAxis = "Z"
+)
+
+over "World"
+{
+    custom double calibration:referenceTableHeightMeters = 0.8
+    custom double calibration:sceneScaleFactor = 0.10471185016965784
+    double3 xformOp:scale:metricCorrection = (0.10471185016965784, 0.10471185016965784, 0.10471185016965784)
+    uniform token[] xformOpOrder = ["xformOp:scale:metricCorrection", "xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+    over "senior_diff_robot_scaled"
+    {
+        over "senior_diff_robot"
+        {
+            over "Graph"
+            {
+                over "ROS_Master_graph_nav2"
+                {
+                    over "ros2_camera_info_helper"
+                    {
+                        custom string inputs:frameId = "camera_optical_frame"
+                        custom token inputs:renderProductPath
+                        token inputs:renderProductPath.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/isaac_create_render_product_01.outputs:renderProductPath>
+                        custom token inputs:renderProductPathRight
+                        token inputs:renderProductPathRight.connect = None
+                        custom string inputs:topicName = "camera_info"
+                    }
+
+                    over "ros2_camera_helper"
+                    {
+                        custom string inputs:frameId = "camera_optical_frame"
+                        custom token inputs:type (
+                            allowedTokens = ["rgb", "rgb_h264", "depth", "depth_pcl", "instance_segmentation", "semantic_segmentation", "bbox_2d_tight", "bbox_2d_loose", "bbox_3d", "rgb_hevc"]
+                        )
+                    }
+
+                    over "ros2_camera_helper_01"
+                    {
+                        custom string inputs:frameId = "camera_optical_frame"
+                        custom string inputs:topicName = "depth/raw"
+                        custom token inputs:type (
+                            allowedTokens = ["rgb", "rgb_h264", "depth", "depth_pcl", "instance_segmentation", "semantic_segmentation", "bbox_2d_tight", "bbox_2d_loose", "bbox_3d", "rgb_hevc"]
+                        )
+                    }
+
+                    over "isaac_compute_transform_tree"
+                    {
+                        custom rel inputs:targetPrims = [
+                            </World/senior_diff_robot_scaled/senior_diff_robot/senior_diff_robot/Geometry/base_link/left_wheel_link>,
+                            </World/senior_diff_robot_scaled/senior_diff_robot/senior_diff_robot/Geometry/base_link/right_wheel_link>,
+                            </World/senior_diff_robot_scaled/senior_diff_robot/senior_diff_robot/Geometry/base_link/quanxiang_wheel_link>,
+                            </World/senior_diff_robot_scaled/senior_diff_robot/senior_diff_robot/Geometry/base_link/camera_link>,
+                            </World/senior_diff_robot_scaled/senior_diff_robot/senior_diff_robot/Geometry/base_link/laser_link>,
+                            </World/senior_diff_robot_scaled/senior_diff_robot/senior_diff_robot/Geometry/base_link/controller_link>,
+                            </World/senior_diff_robot_scaled/senior_diff_robot/senior_diff_robot/Geometry/base_link/camera_link/AstraProCamera>,
+                        ]
+                    }
+
+                    def OmniGraphNode "ros2_depth_pointcloud"
+                    {
+                        custom uint64 inputs:context
+                        uint64 inputs:context.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/ros2_context.outputs:context>
+                        custom bool inputs:enabled
+                        custom bool inputs:enableSemanticLabels
+                        custom uint inputs:execIn
+                        uint inputs:execIn.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/isaac_create_render_product_01.outputs:execOut>
+                        custom string inputs:frameId = "camera_optical_frame"
+                        custom uint inputs:frameSkipCount
+                        custom string inputs:nodeNamespace
+                        custom string inputs:qosProfile
+                        custom uint64 inputs:queueSize
+                        custom token inputs:renderProductPath
+                        token inputs:renderProductPath.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/isaac_create_render_product_01.outputs:renderProductPath>
+                        custom bool inputs:resetSimulationTimeOnStop
+                        custom string inputs:semanticLabelsTopicName
+                        custom string inputs:srtxCompressionType
+                        custom float2 inputs:stereoOffset
+                        custom string inputs:topicName = "depth/points_raw"
+                        custom token inputs:type = "depth_pcl" (
+                            allowedTokens = ["rgb", "rgb_h264", "rgb_hevc", "depth", "depth_pcl", "instance_segmentation", "semantic_segmentation", "bbox_2d_tight", "bbox_2d_loose", "bbox_3d"]
+                        )
+                        custom bool inputs:useSystemTime
+                        custom token node:type = "isaacsim.ros2.bridge.ROS2CameraHelper"
+                        custom int node:typeVersion = 4
+                    }
+
+                    over "isaac_create_render_product_01"
+                    {
+                        custom uint inputs:height = 480
+                        custom uint inputs:width = 640
+                    }
+
+                    over "differential_controller"
+                    {
+                        custom double inputs:wheelDistance = 0.37978988056534896
+                        custom double inputs:wheelRadius = 0.06596846560688444
+                    }
+
+                    over "ros2_publish_odometry"
+                    {
+                        custom string inputs:topicName = "sim/reference_odom"
+                    }
+
+                    over "articulation_controller"
+                    {
+                        custom uint inputs:execIn
+                        delete uint inputs:execIn.connect = [
+                            </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/on_playback_tick.outputs:tick>,
+                            </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/wheel_commands.outputs:execOut>,
+                        ]
+                        prepend uint inputs:execIn.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/wheel_commands.outputs:execOut>
+                        custom token[] inputs:jointNames
+                        delete token[] inputs:jointNames.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/wheel_commands.outputs:jointNames>
+                        prepend token[] inputs:jointNames.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/wheel_commands.outputs:jointNames>
+                        custom double[] inputs:velocityCommand
+                        delete double[] inputs:velocityCommand.connect = [
+                            </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/differential_controller.outputs:velocityCommand>,
+                            </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/wheel_commands.outputs:velocityCommand>,
+                        ]
+                        prepend double[] inputs:velocityCommand.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/wheel_commands.outputs:velocityCommand>
+                    }
+
+                    def OmniGraphNode "encoder_reader"
+                    {
+                        custom uint inputs:execIn (
+                            customData = {
+                                bool isExecution = 1
+                            }
+                        )
+                        prepend uint inputs:execIn.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/on_playback_tick.outputs:tick>
+                        custom rel inputs:prim = </World/senior_diff_robot_scaled/senior_diff_robot/senior_diff_robot/Geometry/base_link> (
+                            customData = {
+                                dictionary omni = {
+                                    dictionary graph = {
+                                        string relType = "target"
+                                    }
+                                }
+                            }
+                        )
+                        token node:type = "isaacsim.sensors.physics.IsaacReadJointState"
+                        int node:typeVersion = 1
+                        custom uint outputs:execOut (
+                            customData = {
+                                bool isExecution = 1
+                            }
+                        )
+                        custom uchar[] outputs:jointDofTypes
+                        custom double[] outputs:jointEfforts
+                        custom token[] outputs:jointNames
+                        custom double[] outputs:jointPositions
+                        custom double[] outputs:jointVelocities
+                        custom float outputs:sensorTime
+                        custom float outputs:stageMetersPerUnit
+                    }
+
+                    def OmniGraphNode "encoder_publisher"
+                    {
+                        custom uint64 inputs:context
+                        prepend uint64 inputs:context.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/ros2_context.outputs:context>
+                        custom uint inputs:execIn (
+                            customData = {
+                                bool isExecution = 1
+                            }
+                        )
+                        prepend uint inputs:execIn.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/encoder_reader.outputs:execOut>
+                        custom uchar[] inputs:jointDofTypes
+                        prepend uchar[] inputs:jointDofTypes.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/encoder_reader.outputs:jointDofTypes>
+                        custom double[] inputs:jointEfforts
+                        prepend double[] inputs:jointEfforts.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/encoder_reader.outputs:jointEfforts>
+                        custom token[] inputs:jointNames
+                        prepend token[] inputs:jointNames.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/encoder_reader.outputs:jointNames>
+                        custom double[] inputs:jointPositions
+                        prepend double[] inputs:jointPositions.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/encoder_reader.outputs:jointPositions>
+                        custom double[] inputs:jointVelocities
+                        prepend double[] inputs:jointVelocities.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/encoder_reader.outputs:jointVelocities>
+                        custom string inputs:nodeNamespace
+                        custom string inputs:qosProfile
+                        custom uint64 inputs:queueSize
+                        custom float inputs:sensorTime
+                        prepend float inputs:sensorTime.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/encoder_reader.outputs:sensorTime>
+                        custom float inputs:stageMetersPerUnit
+                        prepend float inputs:stageMetersPerUnit.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/encoder_reader.outputs:stageMetersPerUnit>
+                        custom rel inputs:targetPrim (
+                            customData = {
+                                dictionary omni = {
+                                    dictionary graph = {
+                                        string relType = "target"
+                                    }
+                                }
+                            }
+                        )
+                        custom double inputs:timeStamp
+                        prepend double inputs:timeStamp.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/isaac_read_simulation_time.outputs:simulationTime>
+                        custom string inputs:topicName = "wheel/joint_states"
+                        token node:type = "isaacsim.ros2.bridge.ROS2PublishJointState"
+                        int node:typeVersion = 1
+                    }
+
+                    def OmniGraphNode "wheel_commands"
+                    {
+                        custom uint64 inputs:context
+                        prepend uint64 inputs:context.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/ros2_context.outputs:context>
+                        custom uint inputs:execIn (
+                            customData = {
+                                bool isExecution = 1
+                            }
+                        )
+                        prepend uint inputs:execIn.connect = </World/senior_diff_robot_scaled/senior_diff_robot/Graph/ROS_Master_graph_nav2/on_playback_tick.outputs:tick>
+                        custom string inputs:nodeNamespace
+                        custom string inputs:qosProfile
+                        custom uint64 inputs:queueSize
+                        custom string inputs:topicName = "wheel/joint_commands"
+                        token node:type = "isaacsim.ros2.bridge.ROS2SubscribeJointState"
+                        int node:typeVersion = 2
+                        custom double[] outputs:effortCommand
+                        custom uint outputs:execOut (
+                            customData = {
+                                bool isExecution = 1
+                            }
+                        )
+                        custom token[] outputs:jointNames
+                        custom double[] outputs:positionCommand
+                        custom double outputs:timeStamp
+                        custom double[] outputs:velocityCommand
+                    }
+                }
+            }
+
+            over "senior_diff_robot"
+            {
+                over "Geometry"
+                {
+                    over "base_link"
+                    {
+                        over "camera_link"
+                        {
+                            over "AstraProCamera" (
+                                prepend apiSchemas = ["OmniSensorAPI"]
+                            )
+                            {
+                                custom float astra:depthMaxMeters = 8
+                                custom float astra:depthMinMeters = 0.6
+                                custom string astra:profile = "Astra Pro supplied specification; aligned RGB-D approximation"
+                                float focalLength = 18.147562
+                                float horizontalAperture = 20.284658
+                                custom string isaac:nameOverride = "camera_optical_frame"
+                                custom float omni:sensor:tickRate = 30
+                                float verticalAperture = 15.213494
+                            }
+                        }
+
+                        over "left_wheel_link"
+                        {
+                        }
+
+                        over "right_wheel_link"
+                        {
+                        }
+
+                        over "quanxiang_wheel_link"
+                        {
+                        }
+
+                        over "laser_link"
+                        {
+                        }
+
+                        over "controller_link"
+                        {
+                        }
+                    }
+                }
+
+                over "Physics"
+                {
+                    over "left_wheel_joint"
+                    {
+                        float state:angular:physics:position = 0.238171
+                        float state:angular:physics:velocity = -0.15258369
+                    }
+
+                    over "right_wheel_joint"
+                    {
+                        float state:angular:physics:position = -0.23822099
+                        float state:angular:physics:velocity = 0.22856742
+                    }
+
+                    over "quanxiang_wheel_joint"
+                    {
+                        float state:angular:physics:position = 0.23742658
+                        float state:angular:physics:velocity = -0.1933647
+                    }
+                }
+            }
+        }
+    }
+
+    over "IC_building_scene"
+    {
+        over "Cube_02"
+        {
+        }
+    }
+}
+
+over "Environment"
+{
+    double3 xformOp:scale:metricCorrection = (0.10471185016965784, 0.10471185016965784, 0.10471185016965784)
+    uniform token[] xformOpOrder = ["xformOp:scale:metricCorrection", "xformOp:translate", "xformOp:orient", "xformOp:scale"]
+}
+
+over "DomeLight"
+{
+    double3 xformOp:scale:metricCorrection = (0.10471185016965784, 0.10471185016965784, 0.10471185016965784)
+    uniform token[] xformOpOrder = ["xformOp:scale:metricCorrection", "xformOp:translate", "xformOp:orient", "xformOp:scale"]
+}
+
+over "Render"
+{
+    over "OmniverseKit"
+    {
+        over "HydraTextures"
+        {
+            over "omni_kit_widget_viewport_ViewportTexture_0" (
+                prepend apiSchemas = ["OmniRtxSettingsParticleFieldAPI_1"]
+            )
+            {
+                rel camera = </OmniverseKit_Persp>
+                bool omni:rtx:material:db:syncLoads = 1
+                bool omni:rtx:rt:ecoMode:enabled
+                bool omni:rtx:scene:hydra:materialSyncLoads = 1
+                rel orderedVars = </Render/Vars/LdrColor>
+                custom bool overrideClipRange = 0
+                uniform int2 resolution = (1280, 720)
+            }
+
+            def RenderProduct "Replicator_05" (
+                prepend apiSchemas = ["OmniRtxSettingsCommonAdvancedAPI_1", "OmniRtxSettingsRtAdvancedAPI_1", "OmniRtxSettingsPtAdvancedAPI_1", "OmniRtxSettingsParticleFieldAPI_1", "OmniRtxPostColorGradingAPI_1", "OmniRtxPostChromaticAberrationAPI_1", "OmniRtxPostBloomPhysicalAPI_1", "OmniRtxPostMatteObjectAPI_1", "OmniRtxPostCompositingAPI_1", "OmniRtxPostDofAPI_1", "OmniRtxPostMotionBlurAPI_1", "OmniRtxPostTvNoiseAPI_1", "OmniRtxPostTonemapIrayReinhardAPI_1", "OmniRtxPostDebugSettingsAPI_1", "OmniRtxDebugSettingsAPI_1"]
+                hide_in_stage_window = true
+                no_delete = true
+            )
+            {
+                rel camera = </World/senior_diff_robot_scaled/senior_diff_robot/senior_diff_robot/Geometry/base_link/camera_link/AstraProCamera>
+                bool omni:rtx:material:db:syncLoads = 1
+                bool omni:rtx:rt:ecoMode:enabled
+                bool omni:rtx:scene:hydra:materialSyncLoads = 1
+                rel orderedVars = </Render/Vars/LdrColor>
+                custom bool overrideClipRange = 0
+                uniform int2 resolution = (640, 480)
+            }
+
+            over "Replicator_03" (
+                prepend apiSchemas = ["OmniRtxSettingsParticleFieldAPI_1"]
+            )
+            {
+                rel camera = </World/senior_diff_robot_scaled/senior_diff_robot/senior_diff_robot/Geometry/base_link/laser_link/Lidar>
+                bool omni:rtx:material:db:syncLoads = 1
+                bool omni:rtx:rt:ecoMode:enabled
+                bool omni:rtx:scene:hydra:materialSyncLoads = 1
+                rel orderedVars = </Render/Vars/LdrColor>
+                custom bool overrideClipRange = 0
+                uniform int2 resolution = (1280, 720)
+            }
+        }
+    }
+
+    over "OmniverseGlobalRenderSettings"
+    {
+        rel products = [
+            </Render/OmniverseKit/HydraTextures/omni_kit_widget_viewport_ViewportTexture_0>,
+            </Render/OmniverseKit/HydraTextures/Replicator>,
+            </Render/OmniverseKit/HydraTextures/Replicator_01>,
+            </Render/OmniverseKit/HydraTextures/Replicator_02>,
+            </Render/OmniverseKit/HydraTextures/omni_kit_widget_viewport_ViewportTexture_1>,
+            </Render/OmniverseKit/HydraTextures/Replicator_03>,
+            </Render/OmniverseKit/HydraTextures/Replicator_04>,
+            </Render/OmniverseKit/HydraTextures/Replicator_05>,
+        ]
+    }
+}
+
+over "OmniverseKit_Persp" (
+    prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+    customData = {
+        dictionary omni = {
+            dictionary kit = {
+                bool hide_in_stage_window = 1
+                bool no_delete = 1
+            }
+        }
+    }
+    hide_in_stage_window = true
+    kind = "component"
+    no_delete = true
+)
+{
+    float2 clippingRange = (1, 10000000)
+    float exposure = 0
+    float exposure:fStop = 5
+    float exposure:iso = 200
+    float exposure:responsivity = 1.1026709
+    float exposure:time = 0.02
+    float focalLength = 18.147562
+    float focusDistance = 400
+    custom uniform vector3d omni:kit:centerOfInterest = (0, 0, -2.167053111690932)
+    float omni:rtx:autoExposure:adaptationSpeed = 3.5
+    bool omni:rtx:autoExposure:enabled = 0
+    float omni:rtx:autoExposure:histogramClamping:maxLuminance = 100000
+    float omni:rtx:autoExposure:histogramClamping:minLuminance = 50
+    token omni:rtx:autoExposure:histogramFilter = "median"
+    float omni:rtx:autoExposure:whitePointScale = 10
+    float3 xformOp:rotateXYZ = (79.017944, -1.0486289e-11, -85.90043)
+    float3 xformOp:scale = (1, 1, 1)
+    double3 xformOp:translate = (-32.086001967433575, 3.2029654895521085, 6.083249762020444)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+}
+
+over "OmniverseKit_Front" (
+    prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+    customData = {
+        dictionary omni = {
+            dictionary kit = {
+                bool hide_in_stage_window = 1
+                bool no_delete = 1
+            }
+        }
+    }
+    hide_in_stage_window = true
+    kind = "component"
+    no_delete = true
+)
+{
+    float2 clippingRange = (1, 10000000)
+    float exposure:fStop = 5
+    float exposure:iso = 150
+    float exposure:responsivity = 1.1026709
+    float exposure:time = 0.02
+    float horizontalAperture = 57372.465
+    custom uniform vector3d omni:kit:centerOfInterest = (0, 0, -50000.00000000002)
+    float omni:rtx:autoExposure:adaptationSpeed = 2.4199998
+    bool omni:rtx:autoExposure:enabled = 1
+    float omni:rtx:autoExposure:histogramClamping:maxLuminance = 93000
+    float omni:rtx:autoExposure:histogramClamping:minLuminance = 0
+    float omni:rtx:autoExposure:whitePointScale = 2.32
+    token projection = "orthographic"
+    float verticalAperture = 57372.465
+    float3 xformOp:rotateXYZ = (90, -1.2722219e-14, 90)
+    float3 xformOp:scale = (1, 1, 1)
+    double3 xformOp:translate = (47038.9189342386, -231.90684029446814, 746.9028070959521)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+}
+
+over "OmniverseKit_Right" (
+    prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+    customData = {
+        dictionary omni = {
+            dictionary kit = {
+                bool hide_in_stage_window = 1
+                bool no_delete = 1
+            }
+        }
+    }
+    hide_in_stage_window = true
+    kind = "component"
+    no_delete = true
+)
+{
+    float2 clippingRange = (1, 10000000)
+    float exposure:fStop = 5
+    float exposure:iso = 50
+    float exposure:responsivity = 1.1026709
+    float exposure:time = 0.02
+    float horizontalAperture = 35764.88
+    custom uniform vector3d omni:kit:centerOfInterest = (0, 0, -50000.000000000015)
+    float omni:rtx:autoExposure:adaptationSpeed = 2.08
+    bool omni:rtx:autoExposure:enabled = 1
+    float omni:rtx:autoExposure:whitePointScale = 3.1000001
+    token projection = "orthographic"
+    float verticalAperture = 35764.88
+    float3 xformOp:rotateXYZ = (90, -0, -1.2722219e-14)
+    float3 xformOp:scale = (1, 1, 1)
+    double3 xformOp:translate = (-2961.081065761431, -50231.90684029449, 746.9028070959521)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+}
+
+over "OmniverseKit_Top" (
+    prepend apiSchemas = ["OmniRtxCameraAutoExposureAPI_1", "OmniRtxCameraExposureAPI_1"]
+    customData = {
+        dictionary omni = {
+            dictionary kit = {
+                bool hide_in_stage_window = 1
+                bool no_delete = 1
+            }
+        }
+    }
+    hide_in_stage_window = true
+    kind = "component"
+    no_delete = true
+)
+{
+    float2 clippingRange = (1, 10000000)
+    float exposure:fStop = 5
+    float exposure:iso = 150
+    float exposure:responsivity = 1.1026709
+    float exposure:time = 0.02
+    float horizontalAperture = 13310.287
+    custom uniform vector3d omni:kit:centerOfInterest = (0, 0, -50000)
+    float omni:rtx:autoExposure:adaptationSpeed = 2.4199998
+    bool omni:rtx:autoExposure:enabled = 0
+    float omni:rtx:autoExposure:histogramClamping:maxLuminance = 93000
+    float omni:rtx:autoExposure:histogramClamping:minLuminance = 0
+    float omni:rtx:autoExposure:whitePointScale = 2.32
+    token projection = "orthographic"
+    float verticalAperture = 13310.287
+    float3 xformOp:rotateXYZ = (1.2722219e-14, -7.016709e-15, -90)
+    float3 xformOp:scale = (1, 1, 1)
+    double3 xformOp:translate = (-3848.2883426806893, 593.1749997586091, 50552.86751814889)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+}
+

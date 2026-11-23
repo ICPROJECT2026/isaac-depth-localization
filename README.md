@@ -2,7 +2,7 @@
 
 在 **Isaac Sim + ROS 2 Humble** 中，使用已有 **3D PCD 地图、深度相机点云和轮编码器里程计**，估计差速小车在地图中的位置与朝向，并在 RViz 中与独立仿真真值进行对比。
 
-面向 organization：`IC380PROJECT206`。建议仓库名：`isaac-depth-localization`。
+面向 organization：`ICPROJECT2026`。建议仓库名：`isaac-depth-localization`。
 
 项目复用现有开源定位和控制软件：**NDT_OMP 地图匹配 + BBS_2D/NDT 全局初始化 + 官方 diff_drive_controller 轮 odom**。本仓库提供场景覆盖层、相机/关节接线、启动配置、范围过滤、显示适配和实验结果；没有另写点云配准或轮里程计积分算法。
 
@@ -101,7 +101,7 @@ flowchart LR
 仓库在组织中创建并推送后：
 
 ```bash
-git clone https://github.com/IC380PROJECT206/isaac-depth-localization.git
+git clone https://github.com/ICPROJECT2026/isaac-depth-localization.git
 cd isaac-depth-localization
 ```
 

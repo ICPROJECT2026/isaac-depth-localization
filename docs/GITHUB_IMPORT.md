@@ -1,6 +1,6 @@
-# 导入 IC380PROJECT206
+# 导入 ICPROJECT2026
 
-建议目标为 `IC380PROJECT206/isaac-depth-localization`。本准备工作只生成本地交付文件，不自动创建组织仓库、上传资源或推送代码。
+建议目标为 `ICPROJECT2026/isaac-depth-localization`。本准备工作只生成本地交付文件，不自动创建组织仓库、上传资源或推送代码。
 
 ## 1. 确认上传目录
 
@@ -29,12 +29,12 @@ git commit -m "Prepare Isaac Sim depth localization project"
 
 ## 2. 在组织下创建空仓库
 
-登录有权限的 GitHub 账号，创建仓库时 owner 选择 **IC380PROJECT206**。名称建议 `isaac-depth-localization`；可见性按组织要求选择。不要在 GitHub 自动生成 README、gitignore 或 License，以免与本地初始提交冲突。
+登录有权限的 GitHub 账号，创建仓库时 owner 选择 **ICPROJECT2026**。名称建议 `isaac-depth-localization`；可见性按组织要求选择。不要在 GitHub 自动生成 README、gitignore 或 License，以免与本地初始提交冲突。
 
 复制新仓库的地址后执行：
 
 ```bash
-git remote add origin https://github.com/IC380PROJECT206/isaac-depth-localization.git
+git remote add origin https://github.com/ICPROJECT2026/isaac-depth-localization.git
 git remote -v
 git push -u origin main
 ```
@@ -45,7 +45,7 @@ git push -u origin main
 
 ```bash
 gh auth status
-gh repo create IC380PROJECT206/isaac-depth-localization --private --source=. --remote=origin --push
+gh repo create ICPROJECT2026/isaac-depth-localization --private --source=. --remote=origin --push
 ```
 
 上述命令是供维护者执行的发布步骤，不会被本仓库任何启动脚本自动调用。参考 [GitHub 官方导入文档](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github)。
